@@ -1,4 +1,7 @@
 const navLinks = [
+  { name: "About Me",
+    link: "#about",
+  },
   {
     name: "Work",
     link: "#work",
@@ -12,9 +15,29 @@ const navLinks = [
     link: "#skills",
   },
   {
+    name: "Education",
+    link: "#education"
+  },
+  {
+    name: "Licenses & Certifications",
+    link: "#certifications"
+  },
+  {
+    name: "Volunteering",
+    link: "#volunteering"
+  },
+  {
+    name: "Honors & Awards",
+    link: "#awards"
+  },
+  {
     name: "Testimonials",
     link: "#testimonials",
   },
+  {
+    name: "Languages",
+    link: "#languages"
+  }
 ];
 
 const words = [
@@ -28,11 +51,18 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
+// const counterItems = [
+//   { value: 15, suffix: "+", label: "Years of Experience" },
+//   { value: 200, suffix: "+", label: "Satisfied Clients" },
+//   { value: 108, suffix: "+", label: "Completed Projects" },
+//   { value: 90, suffix: "%", label: "Client Retention Rate" },
+// ];
+
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 50, suffix: "+", label: "Projects Completed" },
+  { value: 19, suffix: "+", label: "Certifications Earned" },
+  { value: 100, suffix: "+", label: "Technologies Used" },
+  { value: 10, suffix: "+", label: "Internships & Trainings" },
 ];
 
 const logoIconsList = [
