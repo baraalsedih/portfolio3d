@@ -49,15 +49,14 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project11.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Help turn ideas into full-stack, AI-enhanced platforms — from backend architecture to mobile apps
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                A platform built with NestJS, React, & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -67,18 +66,18 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
+                  src="/images/chatApp.png"
+                  alt="Real-Time Chat App"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Real-Time Chat App</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/HomePage.png" alt="FreeDevelopersCamp" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>FreeDevelopersCamp - A Learning Platform</h2>
             </div>
           </div>
         </div>
