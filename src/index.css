@@ -254,6 +254,10 @@ section {
     @apply flex flex-col-reverse xl:flex-row xl:gap-20 gap-10 justify-between;
   }
 
+  .education-card-wrapper {
+    @apply flex flex-col-reverse xl:flex-row xl:gap-20 gap-10 justify-between;
+  }
+
   .gradient-edge {
     @apply w-36 h-full absolute bottom-0 z-20;
   }
@@ -312,11 +316,15 @@ section {
       @apply flex items-center justify-center gap-5;
 
       .icon {
-        @apply border border-black-50 bg-black-100 flex justify-center items-center rounded-xl size-10 md:size-12 cursor-pointer transition-all duration-500 hover:bg-black-50;
+        @apply border border-black-50 bg-black-100 flex justify-center items-center rounded-xl size-10 md:size-12 cursor-pointer transition-all duration-500 hover:bg-black-50 hover:scale-110 hover:shadow-lg;
       }
 
       img {
-        @apply inline-block;
+        @apply inline-block size-5 md:size-6 transition-transform duration-300;
+      }
+
+      .icon:hover img {
+        @apply scale-110;
       }
     }
   }

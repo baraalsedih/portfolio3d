@@ -121,11 +121,11 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "Full-Stack Developer",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Python Developer",
+    name: "AI/ML Engineer",
     imgPath: "/images/logos/python.svg",
   },
   {
@@ -133,24 +133,24 @@ const techStackImgs = [
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Interactive Developer",
+    name: "Data Analyst",
     imgPath: "/images/logos/three.png",
   },
   {
-    name: "Project Manager",
+    name: "DevOps & Deployment",
     imgPath: "/images/logos/git.svg",
   },
 ];
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "Full-Stack Developer",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "AI/ML Engineer",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
@@ -162,13 +162,13 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Data Analyst",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "DevOps & Deployment",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -182,10 +182,10 @@ const expCards = [
     logoPath: "/images/vss.png",
     companyName: "Vigilant Security Systems",
     companyURL: "",
-    title: "SOC L1 Engineer",
+    title: "AI & SOC L1 Engineer",
     date: "July 2025 - Present",
     responsibilities: [
-      "<b>Still at beginings and soon I will add good description.",
+      "Still at beginings and soon I will add good description.",
     ],
   },
   {
@@ -318,9 +318,9 @@ const expCards = [
     title: "Data Science Intern",
     date: "Jan 2024 - October 2024",
     responsibilities: [
-      "<b>Completed hands-on training in Python, SQL, PostgreSQL, Excel, and Power BI through a one-year internship with full access to DataCamp’s learning platform.",
-      "<b>Built real-world projects and competed in challenges, applying data analysis and visualization techniques across various domains.",
-      "<b>Won 1st place in the DataBridge Hackathon, showcasing strong analytical and problem-solving skills, and earned multiple Data Science certifications.",
+      "Completed hands-on training in Python, SQL, PostgreSQL, Excel, and Power BI through a one-year internship with full access to DataCamp’s learning platform.",
+      "Built real-world projects and competed in challenges, applying data analysis and visualization techniques across various domains.",
+      "Won 1st place in the DataBridge Hackathon, showcasing strong analytical and problem-solving skills, and earned multiple Data Science certifications.",
     ],
   },
   {
@@ -401,22 +401,63 @@ const testimonials = [
 ];
 
 const socialImgs = [
-  {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
+  // {
+  //   name: "github",
+  //   imgPath: "/images/github-1.png",
+  //   url: "https://github.com/baraalsedih",
+  // },
+  // {
+  //   name: "fb",
+  //   imgPath: "/images/fb.png",
+  //   url: "",
+  // },
+  // {
+  //   name: "x",
+  //   imgPath: "/images/x.png",
+  //   url: ""
+  // },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/bara-alsedih/"
   },
+];
+
+const education = [
+  {
+    degree: "Bachelor of Computer Engineering",
+    institution: "An-Najah National University",
+    institutionURL: "https://www.najah.edu/en/",
+    logoPath: "/images/najah.png",
+    date: "2020 - 2024",
+    location: "Nablus, Palestine",
+    gpa: "3.02/4.0",
+    description: "Focused on software engineering, data structures, algorithms, and computer systems. Completed two graduation projects: 1- Tile grout Filling Robot, 2- FreeDevelopersCamp - Learning Platform.",
+    courses: [
+      "Data Structures & Algorithms",
+      "Database Systems",
+      "Software Engineering",
+      "AI",
+      "Computer Networks",
+      "Operating Systems"
+    ],
+  },
+  {
+    degree: "High School Diploma",
+    institution: "Jit Secondary School",
+    institutionURL: "",
+    logoPath: "/images/school.png",
+    date: "2018 - 2020",
+    location: "Jit, Qalqilya, Palestine",
+    gpa: "96.3/100",
+    description: "Specialized in Mathematics and Sciences.",
+    courses: [
+      "Advanced Mathematics",
+      "Physics",
+      "Information Technology",
+      "English"
+    ]
+  }
 ];
 
 export {
@@ -431,4 +472,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  education,
 };

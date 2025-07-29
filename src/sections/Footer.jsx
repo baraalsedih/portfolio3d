@@ -10,13 +10,24 @@ const Footer = () => {
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
             <div key={index} className="icon">
-              <img src={socialImg.imgPath} alt="social icon" />
+              {socialImg.url ? (
+                <a 
+                  href={socialImg.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block w-full h-full flex justify-center items-center"
+                >
+                  <img src={socialImg.imgPath} alt={`${socialImg.name} icon`} />
+                </a>
+              ) : (
+                <img src={socialImg.imgPath} alt={`${socialImg.name} icon`} />
+              )}
             </div>
           ))}
         </div>
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Adrian Hajdin. All rights reserved.
+            © {new Date().getFullYear()} Bara Al-Sedih. All rights reserved.
           </p>
         </div>
       </div>
