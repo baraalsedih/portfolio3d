@@ -460,6 +460,251 @@ const education = [
   }
 ];
 
+const licensesAndCertifications = [
+  {
+    name: "Cloud Computing & Preparation for AWS Practitioner Certificate",
+    issuer: "Gaza Sky Geeks",
+    issuerURL: "https://www.linkedin.com/company/gaza-sky-geeks/",
+    logoPath: "/images/gsg.png",
+    date: "Apr 2025",
+    credentialID: "",
+    credentialURL: "https://drive.google.com/file/d/1_tVF2jCHiFhItTgPI0P8q914dQPvjTKS/view",
+    description: "• Understand AWS Fundamentals: Learn core concepts such as cloud computing, AWS global infrastructure, and key AWS services. • Explore AWS Services: Emphasize compute (EC2, Lambda), storage (S3, EBS), databases (RDS, DynamoDB), and networking (VPC, CloudFront). • Other topics include Security & Compliance, Billing & Pricing, AWS Support Plans, Cloud Concepts & Design, Hands-on Practice, and Practice Exams.",
+    skills: [
+      "AWS"
+    ]
+  },
+  {
+    name: "Cloud Computing & Preparation for AWS Practitioner Certificate",
+    issuer: "Gaza Sky Geeks",
+    issuerURL: "https://www.linkedin.com/company/gaza-sky-geeks/",
+    logoPath: "/images/gsg.png",
+    date: "Apr 2025",
+    credentialID: "",
+    credentialURL: "https://drive.google.com/file/d/1_tVF2jCHiFhItTgPI0P8q914dQPvjTKS/view",
+    description: "• Understand AWS Fundamentals: Learn core concepts such as cloud computing, AWS global infrastructure, and key AWS services. • Explore AWS Services: Emphasize compute (EC2, Lambda), storage (S3, EBS), databases (RDS, DynamoDB), and networking (VPC, CloudFront). • Other topics include Security & Compliance, Billing & Pricing, AWS Support Plans, Cloud Concepts & Design, Hands-on Practice, and Practice Exams.",
+    skills: [
+      "AWS"
+    ]
+  },
+  {
+    name: "EF SET English Certificate 63/100 (C1 Advanced)",
+    issuer: "EF SET",
+    issuerURL: "https://www.linkedin.com/company/efset/",
+    logoPath: "/images/efset.png",
+    date: "Mar 2025",
+    credentialID: "tEqDZS",
+    credentialURL: "https://cert.efset.org/tEqDZS",
+    description: "EF SET English exam in Reading, Listening, Speaking, and Writing.",
+    skills: [
+      "English"
+    ]
+  },
+  {
+    name: "SQL Advanced Certificate",
+    issuer: "HackerRank",
+    issuerURL: "https://www.linkedin.com/company/hackerrank/",
+    logoPath: "/images/hackerrank.png",
+    date: "Mar 2025",
+    credentialID: "63f94146f75f",
+    credentialURL: "https://www.hackerrank.com/certificates/63f94146f75f",
+    description: "Applied advanced SQL topics like Window Functions, CTE, and subqueries.",
+    skills: [
+      "MySQL", "SQL", "Problem Solving"
+    ]
+  },
+  {
+    name: "Programming for Data Science with Python",
+    issuer: "Udacity",
+    issuerURL: "https://www.linkedin.com/school/udacity/",
+    logoPath: "/images/udacity.png",
+    date: "Mar 2025",
+    credentialID: "42360d5a-edf0-11ef-b8c5-7b268bcfc836",
+    credentialURL: "https://www.udacity.com/certificate/e/42360d5a-edf0-11ef-b8c5-7b268bcfc836",
+    description: "Earned new Nanodegree certificate from Udacity.",
+    skills: [
+      "Python", "SQL", "GitHub", "Git"
+    ]
+  },
+  {
+    name: "SQL Intermediate Certificate",
+    issuer: "HackerRank",
+    issuerURL: "https://www.linkedin.com/company/hackerrank/",
+    logoPath: "/images/hackerrank.png",
+    date: "Jan 2025",
+    credentialID: "9af69f8e1d69",
+    credentialURL: "https://www.hackerrank.com/certificates/9af69f8e1d69",
+    description: "Successfully earned the SQL (Intermediate) Certification from HackerRank, demonstrating proficiency in advanced SQL concepts. Key competencies include: Writing complex queries involving joins, subqueries, and aggregate functions. Optimizing SQL queries for performance and scalability. Handling scenarios involving data manipulation, data retrieval, and report generation. Working with relational databases to solve real-world problems.",
+    skills: [
+      "MySQL", "SQL", "Problem Solving"
+    ]
+  },
+  {
+    name: "SQL Basic Certificate",
+    issuer: "HackerRank",
+    issuerURL: "https://www.linkedin.com/company/hackerrank/",
+    logoPath: "/images/hackerrank.png",
+    date: "Jan 2025",
+    credentialID: "d80bfbf3599a",
+    credentialURL: "https://www.hackerrank.com/certificates/d80bfbf3599a",
+    description: "Earned the SQL Basics certification from HackerRank, demonstrating a strong understanding of fundamental SQL concepts, including writing queries, working with relational databases, filtering, aggregating, and manipulating data efficiently. Proven ability to solve real-world problems using SQL.",
+    skills: [
+      "MySQL", "SQL", "Problem Solving"
+    ]
+  },
+  {
+    name: "Software Engineering Inter",
+    issuer: "HackerRank",
+    issuerURL: "https://www.linkedin.com/company/hackerrank/",
+    logoPath: "/images/hackerrank.png",
+    date: "Jan 2025",
+    credentialID: "b0f26f3c728a",
+    credentialURL: "https://www.hackerrank.com/certificates/b0f26f3c728a",
+    description: "Earned certification by demonstrating advanced SQL skills and problem-solving abilities for relational databases. Tackled real-world scenarios with complex queries, data retrieval, and logical reasoning. Key skills include efficient use of JOINs, sorting and filtering data, solving database problems with critical thinking, and ensuring data integrity. Highlights proficiency in SQL for database management and data-driven decision-making.",
+    skills: [
+      "MySQL", "SQL", "Problem Solving", "Python (Programming Language)"
+    ]
+  },
+  {
+    name: "CSS Basic Certificate",
+    issuer: "HackerRank",
+    issuerURL: "https://www.linkedin.com/company/hackerrank/",
+    logoPath: "/images/hackerrank.png",
+    date: "Dec 2024",
+    credentialID: "ad7665968ab8",
+    credentialURL: "https://www.hackerrank.com/certificates/ad7665968ab8",
+    description: "I have earned CSS Basic certificate by solving many problems on HackerRank.",
+    skills: [
+      "Cascading Style Sheets (CSS)"
+    ]
+  },
+  {
+    name: "Java Basic Certificate",
+    issuer: "HackerRank",
+    issuerURL: "https://www.linkedin.com/company/hackerrank/",
+    logoPath: "/images/hackerrank.png",
+    date: "Dec 2024",
+    credentialID: "d3749873db0e",
+    credentialURL: "https://www.hackerrank.com/certificates/d3749873db0e",
+    description: "I have earned a java basic certificate on HackerRank, by solving many problems and questions.",
+    skills: [
+      "Data Structures", "Java"
+    ]
+  },
+  {
+    name: "JavaScript Basic Certificate",
+    issuer: "HackerRank",
+    issuerURL: "https://www.linkedin.com/company/hackerrank/",
+    logoPath: "/images/hackerrank.png",
+    date: "Dec 2024",
+    credentialID: "d4e201ee514f",
+    credentialURL: "https://www.hackerrank.com/certificates/d4e201ee514f",
+    description: "JavaScript certification earned on HackerRank after doing an assessment.",
+    skills: [
+      "Data Structures", "JavaScript"
+    ]
+  },
+  {
+    name: "Intro to Machine Learning with TensorFlow",
+    issuer: "Udacity",
+    issuerURL: "https://www.linkedin.com/school/udacity/",
+    logoPath: "/images/udacity.png",
+    date: "Sep 2024",
+    credentialID: "8c3d1b3a-0cbb-11ef-956e-ab7912d968ec",
+    credentialURL: "https://www.udacity.com/certificate/e/8c3d1b3a-0cbb-11ef-956e-ab7912d968ec",
+    description: "Machine Learning nanodegree program covering supervised and unsupervised learning, neural networks, and deep learning applications.",
+    skills: [
+      "TensorFlow", "Data Wrangling", "Data Analytics", "Machine Learning", "Data Science", "Data Analysis"
+    ]
+  },
+  {
+    name: "Data Analytics Bootcamp",
+    issuer: "YouTube",
+    issuerURL: "https://www.linkedin.com/company/youtube/",
+    logoPath: "/images/youtube.png",
+    date: "Aug 2024",
+    credentialID: "",
+    credentialURL: "https://github.com/Data-Analyst-Bootcamp",
+    description: "I have complete the Data Analysis Bootcamp with Alex The Analyst on YouTube, gained many skills, and built many projects.",
+    skills: [
+      "Datasets",
+      "Web Scraping",
+      "Data Visualization",
+      "Extract, Transform, Load (ETL)",
+      "Data Analytics",
+      "MySQL", "Microsoft Excel", "Data Manipulation", "Data Science", "Microsoft Power BI",
+      "Data Cleaning", "Python"
+    ]
+  },
+  {
+    name: "AI Fundamentals Certificate",
+    issuer: "DataCamp",
+    issuerURL: "https://www.linkedin.com/school/datacampinc/",
+    logoPath: "/images/datacamp.png",
+    date: "May 2024",
+    credentialID: "AIF0022760445620",
+    credentialURL: "https://www.datacamp.com/skill-verification/AIF0022760445620",
+    description: "I have completed the AI Fundamentals track, performed an exam, and gained a certification.",
+    skills: [
+      "Artificial Intelligence (AI)",
+      "Data Analytics",
+      "Data Science",
+    ]
+  },
+  {
+    name: "Data Literacy Certificate",
+    issuer: "DataCamp",
+    issuerURL: "https://www.linkedin.com/school/datacampinc/",
+    logoPath: "/images/datacamp.png",
+    date: "May 2024",
+    credentialID: "DL0036510518177",
+    credentialURL: "https://www.datacamp.com/skill-verification/DL0036510518177",
+    description: "I have completed the DataCamp track for data literacy, finished the exam, and gained certification.",
+    skills: [
+      "Data Literacy",
+      "Data Analytics",
+      "Data Science",
+    ]
+  },
+  {
+    name: "Python Basic Certification",
+    issuer: "HackerRank",
+    issuerURL: "https://www.linkedin.com/company/hackerrank/",
+    logoPath: "/images/hackerrank.png",
+    date: "May 2024",
+    credentialID: "7436060828e3",
+    credentialURL: "https://www.hackerrank.com/certificates/7436060828e3",
+    description: "It covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes",
+    skills: [
+      "Data Analytics",
+      "Data Structures",
+      "Data Science",
+      "Python",
+    ]
+  },
+  {
+    name: "Advanced Python with Data Manipulation and RESTful APIs using Flask",
+    issuer: "Gaza Sky Geeks",
+    issuerURL: "https://www.linkedin.com/company/gaza-sky-geeks/",
+    logoPath: "/images/gsg.png",
+    date: "Feb 2024",
+    credentialID: "",
+    credentialURL: "https://drive.google.com/file/d/1ko2x_6-YBE6RnuFR5RdQaCgRmaYtKK97/view?usp=sharing&usp=embed_facebook",
+    description: "I have participated with GSG for 60 hours practical training in advanced python with data manipulation and RESTful APIs using Flask and SQLite, built many projects, solved real-world problems, and gained lots of experience.",
+    skills: [
+      "Python",
+      "Flask",
+      "Pandas",
+      "REST APIs",
+      "Extract, Transform, Load (ETL)",
+      "SQLite",
+      "Datasets",
+      "Database",
+      "Data Science", "Data Analysis", "Data Strucutres", "Data Manipulation", "Data Cleaning", "Data Visualization"
+    ]
+  }
+];
+
 export {
   words,
   abilities,
@@ -473,4 +718,5 @@ export {
   techStackImgs,
   navLinks,
   education,
+  licensesAndCertifications,
 };
