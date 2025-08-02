@@ -462,16 +462,42 @@ const education = [
 
 const licensesAndCertifications = [
   {
-    name: "Cloud Computing & Preparation for AWS Practitioner Certificate",
-    issuer: "Gaza Sky Geeks",
-    issuerURL: "https://www.linkedin.com/company/gaza-sky-geeks/",
-    logoPath: "/images/gsg.png",
-    date: "Apr 2025",
-    credentialID: "",
-    credentialURL: "https://drive.google.com/file/d/1_tVF2jCHiFhItTgPI0P8q914dQPvjTKS/view",
-    description: "• Understand AWS Fundamentals: Learn core concepts such as cloud computing, AWS global infrastructure, and key AWS services. • Explore AWS Services: Emphasize compute (EC2, Lambda), storage (S3, EBS), databases (RDS, DynamoDB), and networking (VPC, CloudFront). • Other topics include Security & Compliance, Billing & Pricing, AWS Support Plans, Cloud Concepts & Design, Hands-on Practice, and Practice Exams.",
+    name: "AWS Educate Machine Learning Foundations",
+    issuer: "Amazon Web Services (AWS)",
+    issuerURL: "https://www.linkedin.com/company/amazon-web-services/",
+    logoPath: "/images/aws.png",
+    date: "Jun 2025",
+    credentialID: "8ebb47e6-1908-4272-8c49-6d7cdfdbb0b9",
+    credentialURL: "https://www.credly.com/earner/earned/share/8ebb47e6-1908-4272-8c49-6d7cdfdbb0b9",
+    description: "Earners of this badge have completed the Machine Learning Foundations training and achieved the required scores on the post-course assessment. They have demonstrated the ability to discuss the fundamental concepts of machine learning and how to apply the machine learning pipeline to solve a business problem.",
     skills: [
-      "AWS"
+      "Machine Learning"
+    ]
+  },
+  {
+    name: "Introduction to Deep Learning with PyTorch: Theoretical Knowledge and Practical Implementation",
+    issuer: "PalSoft for AI & Technology Solutions",
+    issuerURL: "https://www.linkedin.com/company/palsoftco/",
+    logoPath: "/images/palsoftco_logo.png",
+    date: "Jun 2025",
+    credentialID: "",
+    credentialURL: "https://www.linkedin.com/in/bara-alsedih/details/certifications/1749133425647/single-media-viewer/?profileId=ACoAAEelapkBoIDq5_60n2J0LNtHPl9ugf17cfs",
+    description: "Introduction to Deep Learning with PyTorch: Theoretical Knowledge and Practical Implementation.",
+    skills: [
+      "Deep Learning", "Machine Learning"
+    ]
+  },
+  {
+    name: "The Ultimate React Course 2025: React, Next.js, Redux & More",
+    issuer: "Udemy",
+    issuerURL: "https://www.linkedin.com/company/udemy/",
+    logoPath: "/images/udemy.png",
+    date: "May 2025",
+    credentialID: "UC-c832d240-2211-45fd-963b-909f8baf9a34",
+    credentialURL: "https://www.udemy.com/certificate/UC-c832d240-2211-45fd-963b-909f8baf9a34/",
+    description: "I have completed this great React course building many projects.",
+    skills: [
+      "React", "Redux", "Tailwind CSS", "Styled Components", "Next.js"
     ]
   },
   {
