@@ -145,30 +145,35 @@ const techStackImgs = [
 const techStackIcons = [
   {
     name: "Full-Stack Developer",
+    url: "https://github.com/baraalsedih/Full-Stack-Projects",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "AI/ML Engineer",
+    url: "https://github.com/baraalsedih/AI-ML-Projects",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
     name: "Backend Developer",
+    url: "https://github.com/baraalsedih/Backend-Projects",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Data Analyst",
+    url: "https://github.com/baraalsedih/Data-Analysis-Projects",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "DevOps & Deployment",
+    url: "https://github.com/baraalsedih/DevOps-Projects",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -356,14 +361,20 @@ const expLogos = [
 ];
 
 const testimonials = [
-  
-  // {
-  //   name: "Albert Flores",
-  //   mentions: "@albertflores",
-  //   review:
-  //     "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-  //   imgPath: "/images/client6.png",
-  // },
+  {
+    name: "Suzan Barghouti",
+    url: "https://www.linkedin.com/in/suzan-barghouti-170638286/",
+    review:
+      "I’ve had the pleasure of working with Bara throughout his journey in the Palestine Launchpad program first as a participant, then as a committed mentor and event contributor. Bara' completed two Nanodegree programs, won 1st place in our 3rd Hackathon, and mentored two teams who placed 1st and 2nd in the 4th hackathon. He also played a key role in organizing major program events. Bara is driven, collaborative, and deeply committed to making an impact, it’s been inspiring to watch his growth :)",
+    // imgPath: "/images/yazan_faroun.png",
+  },
+  {
+    name: "Yazan Faroun",
+    url: "https://www.linkedin.com/in/yazan-faroun-94776b205/",
+    review:
+      "You were an excellent team member — quick to learn, collaborative, and highly adaptable. You picked up NestJS in no time and made significant contributions to both development and problem-solving discussions. I really appreciated your positive attitude and strong sense of responsibility throughout the project.",
+    // imgPath: "/images/yazan_faroun.png",
+  },
 ];
 
 const socialImgs = [

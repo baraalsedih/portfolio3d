@@ -19,7 +19,14 @@ const Testimonials = () => {
                   <img src={testimonial.imgPath} alt="" />
                 </div>
                 <div>
-                  <p className="font-bold">{testimonial.name}</p>
+                  <a
+                    href={testimonial.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold hover:underline"
+                  >
+                    {testimonial.name}
+                  </a>
                   <p className="text-white-50">{testimonial.mentions}</p>
                 </div>
               </div>
