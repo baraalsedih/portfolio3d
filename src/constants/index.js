@@ -179,6 +179,7 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 4, 0],
   },
 ];
+
 const expCards = [
   {
     review: "No review yet, soon I will add one.",
