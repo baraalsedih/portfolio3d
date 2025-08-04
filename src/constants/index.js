@@ -144,35 +144,35 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "Full-Stack Developer",
+    name: "Full-Stack Projects",
     url: "https://github.com/baraalsedih/Full-Stack-Projects",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "AI/ML Engineer",
+    name: "AI/ML Projects",
     url: "https://github.com/baraalsedih/AI-ML-Projects",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Backend Projects",
     url: "https://github.com/baraalsedih/Backend-Projects",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Data Analyst",
+    name: "Data Analysis Projects",
     url: "https://github.com/baraalsedih/Data-Analysis-Projects",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "DevOps & Deployment",
+    name: "DevOps & Deployment Projects",
     url: "https://github.com/baraalsedih/DevOps-Projects",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
