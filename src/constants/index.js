@@ -709,6 +709,28 @@ const licensesAndCertifications = [
   }
 ];
 
+const volunteering = [
+  {
+    title: "Program Coordinator",
+    organization: "Gaza Sky Geeks",
+    organizationURL: "https://www.linkedin.com/company/gaza-sky-geeks/",
+    logoPath: "/images/gsg.png",
+    date: "Jun 2025 - Present",
+    duration: "3 months",
+    category: "Education",
+    description: "I have started this volunteer work with Gaza Sky Geeks as DataCamp Team Coordinator, to help An-Najah National University students with their learning journey at the DataCamp learning platform as I have been in the previous version of this scholarship and have excellent experience on the DataCamp learning platform, with a one-year scholarship provided by the Gaza Sky Geeks organization.",
+    portfolioURL: "https://www.datacamp.com/portfolio/baraalsedih",
+    portfolioTitle: "Bara Al-Sedih's Data Portfolio | DataCamp",
+    portfolioDescription: "I've provided my DataCamp Portfolio, which shows the huge amount of experience I gained through my one-year journey at DataCamp via the Gaza Sky Geeks scholarship.",
+    responsibilities: [
+      "Coordinate DataCamp learning programs for university students",
+      "Provide mentorship and guidance to scholarship recipients",
+      "Share expertise gained from previous DataCamp scholarship experience",
+      "Support students in their data science learning journey"
+    ]
+  }
+];
+
 export {
   words,
   abilities,
@@ -723,4 +745,5 @@ export {
   navLinks,
   education,
   licensesAndCertifications,
+  volunteering,
 };

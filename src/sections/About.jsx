@@ -65,24 +65,24 @@ const About = () => {
           {/* Main Introduction */}
           <div className="text-center mb-12">
             <h2 className="text-1xl md:text-2xl font-semibold mb-6 text-white-50">
-              Full-Stack Developer | AI/ML Engineer | React, Next.js, Node.js, NestJS, Spring Boot | Python, Flask, TensorFlow, PyTorch, LangChain, SQL | I Build AI-Integrated Web Apps
+            Full-Stack Developer & AI/ML Engineer | Data Science & Automation (n8n) | Python, Node.js, Flask, NestJS, Spring Boot | React, Next.js | PyTorch, TensorFlow, LangChain, SQL | I Build AI-Integrated Web Apps
             </h2>
           </div>
 
           {/* Main Description */}
           <div className="mb-16">
-            <p className="text-white-50 text-lg leading-relaxed text-left max-w-4xl mx-auto">
-              👋 I'm a Full-Stack Developer & AI/ML Engineer with a unique ability to build intelligent software products from the ground up.
+            <p className="text-white-50 text-lg leading-relaxed text-left max-w-4xl mx-auto">    
+              👋 I’m a Full-Stack Developer & AI/ML Engineer with a strong focus on backend development, intelligent automation, and data-driven solutions. I build scalable APIs, integrate AI models, and automate workflows using tools like n8n.
               <br />
               <br />
-              I specialize in designing and developing full-stack web applications — from database modeling and system architecture to frontend/backend implementation and production-ready deployment.
+              💡 With 8+ months of backend experience (NestJS, Node.js, Next.js, Spring Boot, Flask) and 1+ year in AI/ML, data science, and analysis, I deliver end-to-end solutions — from data preprocessing and model training to full-stack integration and deployment.
               <br />
               <br />
-              On the data side, I build end-to-end machine learning pipelines, starting from data extraction and preprocessing, through model training, evaluation, fine-tuning, and finally to deployment and integration with web applications.
+              🔧 Tech Stack: Python, JavaScript, TypeScript, React, Next.js, Node.js, NestJS, SQL, MongoDB, Docker, AWS, TensorFlow, LangChain, OpenAI, HuggingFace, Pandas, Power BI.
               <br />
               <br />
-              I have practical experience with modern AI technologies including RAG (Retrieval-Augmented Generation), LangChain, fine-tuning LLMs, AI API integrations, and embedding intelligent features directly into web products.
-            </p>
+              I'm passionate about merging automation, AI, and web development to build smart, impactful software.
+              </p>
           </div>
 
           {/* Toolbox Section */}
