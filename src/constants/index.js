@@ -3,16 +3,16 @@ const navLinks = [
     link: "#about",
   },
   {
+    name: "Skills",
+    link: "#skills",
+  },
+  {
     name: "Work",
     link: "#work",
   },
   {
     name: "Experience",
     link: "#experience",
-  },
-  {
-    name: "Skills",
-    link: "#skills",
   },
   {
     name: "Education",
@@ -731,6 +731,105 @@ const volunteering = [
   }
 ];
 
+const honorsAndAwards = [
+  {
+    title: "Top 2 Winning Teams (Mentor) – Stichting SPARK 4th Hackathon",
+    issuer: "Stichting SPARK",
+    issuerURL: "https://www.linkedin.com/company/spark/",
+    logoPath: "/images/spark.png",
+    date: "Jun 2025",
+    category: "Hackathon",
+    associatedWith: "Udacity",
+    associatedWithURL: "https://www.linkedin.com/school/udacity/",
+    associatedWithLogo: "/images/udacity.png",
+    description: "Udacity Palestine Launchpad 4th Hackathon",
+    achievements: [
+      "Co-mentored two winning teams out of 24 participating groups",
+      "Team 4: 1st 🥇 Place overall – ThemeSolve: Personalized Math Problem Rewriting Using AI",
+      "Team 10: 2nd 🥈 Place overall – Hirelyze: AI-Based Resume Ranking for Recruitment",
+      "Provided technical guidance in AI, team organization, and project execution"
+    ],
+    linkedinPostURL: "https://www.linkedin.com/posts/bara-alsedih_ai-hackathon-palestinetech-activity-7339716576918581249-1fzA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEelapkBoIDq5_60n2J0LNtHPl9ugf17cfs",
+    githubOrgURL: ""
+  },
+  {
+    title: "Top 1 Winning Team – Stichting SPARK 3rd Hackathon",
+    issuer: "Stichting Spark",
+    issuerURL: "https://www.linkedin.com/company/spark/",
+    logoPath: "/images/spark.png",
+    date: "Feb 2025",
+    category: "Hackathon",
+    associatedWith: "Udacity",
+    associatedWithURL: "https://www.linkedin.com/school/udacity/",
+    associatedWithLogo: "/images/udacity.png",
+    description: "Won 1st place in developing a mental health chatbot web application using Streamlit for the Front-End, and Back-End built using Node.js, Express, MongoDB, and JWT for authentication, and created a server for chatbot model messaging.",
+    technicalDetails: [
+      "Fine-tuned llama 3.2 1B model using PyTorch and Unsloth on a dataset for mental health conversations from Hugging Face",
+      "Preprocessed the dataset to add Arabic conversations and performed data analysis",
+      "Deployed our model and dataset on Hugging Face to allow developers to use or enhance it",
+      "Deployed our model on Ollama to make it easier for developers to use in their projects"
+    ],
+    linkedinPostURL: "https://www.linkedin.com/posts/bara-alsedih_exciting-news-my-team-won-1st-place-activity-7299176227221782529-xUly?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEelapkBoIDq5_60n2J0LNtHPl9ugf17cfs",
+    githubOrgURL: "https://github.com/Hackathon-TeamP2-5"
+  },
+  {
+    title: "Top 1 Winning Team – Gaza Sky Geeks DataBridge Hackathon",
+    issuer: "Gaza Sky Geeks",
+    issuerURL: "https://www.linkedin.com/company/gaza-sky-geeks/",
+    logoPath: "/images/gsg.png",
+    date: "Aug 2024",
+    category: "Hackathon",
+    associatedWith: "DataCamp",
+    associatedWithURL: "https://www.linkedin.com/school/datacampinc/",
+    associatedWithLogo: "/images/datacamp.png",
+    description: "Excited to Share My First-Place Victory (Legends team) with my teammate (Lina Alama) at the DataBridge Hackathon! 🥇",
+    eventDetails: "We recently had the privilege of taking part in a remarkable hackathon at Palestine Techno Park in Ramallah. This event, a collaborative effort between Gaza Sky Geeks and DataCamp brought together talented students from NNU and PPU universities. The focus on Data Analysis made it an incredible opportunity to work with bright and innovative minds from various universities. 🌟",
+    achievements: [
+      "Worked with large datasets from Kaggle",
+      "Performed data manipulation and insights using Pandas and Numpy",
+      "Visualized the insights using Matplotlib",
+      "Won first place"
+    ],
+    linkedinPostURL: "https://www.linkedin.com/posts/bara-alsedih_hackathon-datavisualization-technopark-activity-7231873729771831297-25G_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEelapkBoIDq5_60n2J0LNtHPl9ugf17cfs",
+    kaggleNotebookURL: "https://www.kaggle.com/code/baraaalsedih/databridge-hackathon",
+  }
+];
+
+const languages = [
+  {
+    name: "Arabic",
+    level: "Native",
+    flag: "🇵🇸",
+    description: "Native speaker with full proficiency in reading, writing, listening, and speaking",
+    skills: [
+      "Native fluency",
+      "Academic writing",
+      "Technical documentation",
+      "Public speaking"
+    ]
+  },
+  {
+    name: "English",
+    level: "Professional (C1)",
+    flag: "🇺🇸",
+    description: "C1 Advanced level certified by EF SET with professional proficiency",
+    certification: {
+      name: "EF SET English Certificate 63/100 (C1 Advanced)",
+      issuer: "EF SET",
+      date: "Mar 2025",
+      credentialID: "tEqDZS",
+      credentialURL: "https://cert.efset.org/tEqDZS"
+    },
+    skills: [
+      "Advanced reading and writing",
+      "Professional communication",
+      "Technical documentation",
+      "International collaboration",
+      "Academic presentations"
+    ]
+  }
+];
+
 export {
   words,
   abilities,
@@ -746,4 +845,6 @@ export {
   education,
   licensesAndCertifications,
   volunteering,
+  honorsAndAwards,
+  languages,
 };

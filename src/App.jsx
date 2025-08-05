@@ -6,6 +6,8 @@ import Experience from "./sections/Experience";
 import Education from "./sections/Education";
 import LicensesAndCertifications from "./sections/LicensesAndCertifications";
 import Volunteering from "./sections/Volunteering";
+import HonorsAndAwards from "./sections/HonorsAndAwards";
+import Languages from "./sections/Languages";
 import About from "./sections/About";
 import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
@@ -18,15 +20,17 @@ const App = () => (
     <Navbar />
     <Hero />
     <About />
+    <TechStack />
     <ShowcaseSection />
     <LogoShowcase />
     <FeatureCards />
     <Experience />
-    <TechStack />
     <Education />
     <LicensesAndCertifications />
     <Volunteering />
+    <HonorsAndAwards />
     <Testimonials />
+    <Languages />
     <Contact />
     <Footer />
   </>
