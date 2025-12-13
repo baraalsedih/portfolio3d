@@ -1,5 +1,5 @@
 const navLinks = [
-  { name: "About Me",
+  { name: "About",
     link: "#about",
   },
   {
@@ -19,7 +19,7 @@ const navLinks = [
     link: "#education"
   },
   {
-    name: "Licenses & Certifications",
+    name: "Certificates",
     link: "#certifications"
   },
   {
@@ -27,7 +27,7 @@ const navLinks = [
     link: "#volunteering"
   },
   {
-    name: "Honors & Awards",
+    name: "Honors",
     link: "#awards"
   },
   {
