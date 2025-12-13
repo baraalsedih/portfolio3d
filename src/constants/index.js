@@ -55,7 +55,7 @@ const counterItems = [
   { value: 1, suffix: "+", label: "Years of Experience" },
   { value: 3, suffix: "", label: "Satisfied Clients" },
   { value: 24, suffix: "+", label: "Completed Projects" },
-  { value: 21, suffix: "", label: "Certifications" },
+  { value: 22, suffix: "", label: "Certifications" },
 ];
 
 const logoIconsList = [
@@ -456,6 +456,22 @@ const education = [
 
 const licensesAndCertifications = [
   {
+    name: "Python Data Associate",
+    issuer: "DataCamp",
+    issuerURL: "https://www.linkedin.com/school/datacampinc/",
+    logoPath: "/images/datacamp.png",
+    date: "Nov 2025",
+    credentialID: "PDA0010251046951",
+    credentialURL: "https://www.datacamp.com/certificate/PDA0010251046951",
+    description: "Foundation in Python with data manipulation and exploratory data analysis.",
+    skills: [
+      "Python",
+      "Pandas",
+      "Numpy",
+      "Matplotlib"
+    ]
+  },
+  {
     name: "AWS Certified Cloud Practitioner",
     issuer: "Amazon Web Services (AWS)",
     issuerURL: "https://www.linkedin.com/company/amazon-web-services/",
@@ -465,7 +481,8 @@ const licensesAndCertifications = [
     credentialURL: "https://www.credly.com/badges/d2daaa59-b7a6-47e0-8bc3-298fd1ad68f3/linked_in_profile",
     description: "Foundations in cloud computing and AWS services.",
     skills: [
-      "Machine Learning"
+      "AWS",
+      "Cloud Computing"
     ]
   },
   {
@@ -476,7 +493,7 @@ const licensesAndCertifications = [
     date: "Aug 2025",
     credentialID: "fc23c832-7857-11f0-ad1f-d3af1287c077",
     credentialURL: "www.udacity.com/certificate/e/fc23c832-7857-11f0-ad1f-d3af1287c077",
-    description: "Earners of this badge have completed the Machine Learning Foundations training and achieved the required scores on the post-course assessment. They have demonstrated the ability to discuss the fundamental concepts of machine learning and how to apply the machine learning pipeline to solve a business problem.",
+    description: "Optimize GitHub profile to showcase my projects and work.",
     skills: [
       "Machine Learning"
     ]
@@ -758,17 +775,17 @@ const volunteering = [
     organizationURL: "https://www.linkedin.com/company/gaza-sky-geeks/",
     logoPath: "/images/gsg.png",
     date: "Jun 2025 - Present",
-    duration: "3 months",
+    duration: "+1 year",
     category: "Education",
-    description: "I have started this volunteer work with Gaza Sky Geeks as DataCamp Team Coordinator, to help An-Najah National University students with their learning journey at the DataCamp learning platform as I have been in the previous version of this scholarship and have excellent experience on the DataCamp learning platform, with a one-year scholarship provided by the Gaza Sky Geeks organization.",
+    description: "I am volunteering with Gaza Sky Geeks as DataCamp Team Coordinator, to help An-Najah National University students with their learning journey at the DataCamp learning platform as I have been in the previous version of this scholarship and have excellent experience on the DataCamp learning platform, with a one-year scholarship provided by the Gaza Sky Geeks organization.",
     portfolioURL: "https://www.datacamp.com/portfolio/baraalsedih",
     portfolioTitle: "Bara Al-Sedih's Data Portfolio | DataCamp",
     portfolioDescription: "I've provided my DataCamp Portfolio, which shows the huge amount of experience I gained through my one-year journey at DataCamp via the Gaza Sky Geeks scholarship.",
     responsibilities: [
-      "Coordinate DataCamp learning programs for university students",
-      "Provide mentorship and guidance to scholarship recipients",
-      "Share expertise gained from previous DataCamp scholarship experience",
-      "Support students in their data science learning journey"
+      "Provide mentorship and guide learners",
+      "Support students in their data learning journey",
+      "Arrange online and on-ground gathering events",
+      "Organize technical and soft-skills awareness sessions"
     ]
   }
 ];

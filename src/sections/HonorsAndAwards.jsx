@@ -61,6 +61,7 @@ const HonorsAndAwards = () => {
                           src={award.logoPath} 
                           alt={`${award.issuer} logo`} 
                           className="w-16 h-16 object-contain rounded-lg" 
+                          loading="lazy"
                         />
                         <div>
                           <h3 className="font-semibold text-xl text-white">
@@ -95,6 +96,7 @@ const HonorsAndAwards = () => {
                             src={award.associatedWithLogo} 
                             alt={`${award.associatedWith} logo`} 
                             className="w-8 h-8 object-contain" 
+                            loading="lazy"
                           />
                           <span className="text-white-50 text-sm">
                             Associated with{" "}
@@ -214,6 +216,7 @@ const HonorsAndAwards = () => {
                             src={award.scoreboardImage} 
                             alt="Hackathon Scoreboard" 
                             className="w-full max-w-md rounded-lg border border-[#333]" 
+                            loading="lazy"
                           />
                         </div>
                       )}

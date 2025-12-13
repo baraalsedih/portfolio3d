@@ -50,7 +50,7 @@ const AppShowcase = () => {
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="project">
                 <div className="image-wrapper">
-                  <img src="/images/predictive-model.png" alt="Predictive Analytics Model" />
+                  <img src="/images/predictive-model.png" alt="Predictive Analytics Model" loading="lazy" />
                 </div>
                 <div className="text-content">
 
@@ -67,6 +67,7 @@ const AppShowcase = () => {
                 <img
                   src="/images/chatbot.png"
                   alt="LLM-Powered AI Agent"
+                  loading="lazy"
                 />
               </div>
               <h2>Mental Health Chatbot</h2>
@@ -75,7 +76,7 @@ const AppShowcase = () => {
 
             <div className="project">
               <div className="image-wrapper bg-[#F0FFF4]">
-                <img src="/images/n8n-automation.png" alt="n8n AI Workflow" />
+                <img src="/images/n8n-automation.png" alt="n8n AI Workflow" loading="lazy" />
               </div>
               <h2>Email Cleaner & Priority Sort AI Agent (n8n + Google Gemini)</h2>
               <p className="text-sm text-white-50 mt-2">Auto-classifies emails, applies Gmail labels, sends Discord alerts</p>
@@ -87,6 +88,7 @@ const AppShowcase = () => {
                 <img
                   src="/images/chatApp.png"
                   alt="Real-Time Chat App"
+                  loading="lazy"
                 />
               </div>
               <h2>Real-Time Chat App</h2>
@@ -94,7 +96,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/HomePage.png" alt="FreeDevelopersCamp" />
+                <img src="/images/HomePage.png" alt="FreeDevelopersCamp" loading="lazy" />
               </div>
               <h2>FreeDevelopersCamp - A Learning Platform</h2>
             </div>

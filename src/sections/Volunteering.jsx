@@ -61,6 +61,7 @@ const Volunteering = () => {
                           src={volunteer.logoPath} 
                           alt={`${volunteer.organization} logo`} 
                           className="w-16 h-16 object-contain rounded-lg" 
+                          loading="lazy"
                         />
                         <div>
                           <h3 className="font-semibold text-xl text-white">

@@ -12,7 +12,7 @@ const Experience = () => {
   useGSAP(() => {
     // Loop through each timeline card and animate them in
     // as the user scrolls to each card
-    gsap.utils.toArray(".timeline-card").forEach((card) => {
+    gsap.utils.toArray(".experience-section .timeline-card").forEach((card) => {
       // Animate the card coming in from the left
       // and fade in
       gsap.from(card, {
@@ -40,31 +40,31 @@ const Experience = () => {
     // from the top of the timeline to 70% down the screen
     // The timeline height should scale down from 1 to 0
     // as the user scrolls up the screen
-    gsap.to(".timeline", {
-      // Set the origin of the animation to the bottom of the timeline
-      transformOrigin: "bottom bottom",
-      // Animate the timeline height over 1 second
-      ease: "power1.inOut",
-      // Trigger the animation when the timeline is at the top of the screen
-      // and end it when the timeline is at 70% down the screen
-      scrollTrigger: {
-        trigger: ".timeline",
-        start: "top center",
-        end: "70% center",
-        // Update the animation as the user scrolls
-        onUpdate: (self) => {
-          // Scale the timeline height as the user scrolls
-          // from 1 to 0 as the user scrolls up the screen
-          gsap.to(".timeline", {
-            scaleY: 1 - self.progress,
-          });
-        },
-      },
-    });
+    // gsap.to(".experience-section .timeline", {
+    //   // Set the origin of the animation to the bottom of the timeline
+    //   transformOrigin: "bottom bottom",
+    //   // Animate the timeline height over 1 second
+    //   ease: "power1.inOut",
+    //   // Trigger the animation when the timeline is at the top of the screen
+    //   // and end it when the timeline is at 70% down the screen
+    //   scrollTrigger: {
+    //     trigger: ".experience-section .timeline",
+    //     start: "top center",
+    //     end: "70% center",
+    //     // Update the animation as the user scrolls
+    //     onUpdate: (self) => {
+    //       // Scale the timeline height as the user scrolls
+    //       // from 1 to 0 as the user scrolls up the screen
+    //       gsap.to(".experience-section .timeline", {
+    //         scaleY: 1 - self.progress,
+    //       });
+    //     },
+    //   },
+    // });
 
     // Loop through each expText element and animate them in
     // as the user scrolls to each text element
-    gsap.utils.toArray(".expText").forEach((text) => {
+    gsap.utils.toArray(".experience-section .expText").forEach((text) => {
       // Animate the text opacity from 0 to 1
       // and move it from the left to its final position
       // over 1 second with a power2 ease-in-out curve
@@ -99,7 +99,7 @@ const Experience = () => {
           title="Professional Work Experience"
           sub="💼 My Career Overview"
         />
-        <div className="mt-32 relative">
+        <div className="mt-32 relative experience-section">
           <div className="relative z-50 xl:space-y-32 space-y-10">
             {expCards.map((card) => (
               <div key={card.title} className="exp-card-wrapper">
@@ -113,7 +113,7 @@ const Experience = () => {
                     >
                       <GlowCard card={card}>
                         <div className="flex items-center gap-4">
-                          <img src={card.imgPath} alt="exp-img" className="w-20 h-20 object-cover rounded-lg" />
+                          <img src={card.imgPath} alt="exp-img" className="w-20 h-20 object-cover rounded-lg" loading="lazy" />
                           <span className="text-lg font-semibold text-white">{card.companyName}</span>
                         </div>
                       </GlowCard>
@@ -121,7 +121,7 @@ const Experience = () => {
                   ) : (
                     <GlowCard card={card}>
                       <div className="flex items-center gap-4">
-                        <img src={card.imgPath} alt="exp-img" className="w-20 h-20 object-cover rounded-lg" />
+                        <img src={card.imgPath} alt="exp-img" className="w-20 h-20 object-cover rounded-lg" loading="lazy" />
                         <span className="text-lg font-semibold text-white">{card.companyName}</span>
                       </div>
                     </GlowCard>
@@ -135,7 +135,7 @@ const Experience = () => {
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo">
-                        <img src={card.logoPath} alt="logo" />
+                        <img src={card.logoPath} alt="logo" loading="lazy" />
                       </div>
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>

@@ -60,6 +60,7 @@ const LicensesAndCertifications = () => {
                         src={cert.logoPath} 
                         alt={`${cert.issuer} logo`} 
                         className="w-12 h-12 object-contain rounded-lg flex-shrink-0" 
+                        loading="lazy"
                       />
                       <div className="flex-1 min-w-0">
                         <h3 className="font-semibold text-lg text-white mb-1 line-clamp-2">

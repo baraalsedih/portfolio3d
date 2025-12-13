@@ -17,10 +17,10 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="block w-full h-full flex justify-center items-center"
                 >
-                  <img src={socialImg.imgPath} alt={`${socialImg.name} icon`} />
+                  <img src={socialImg.imgPath} alt={`${socialImg.name} icon`} loading="lazy" />
                 </a>
               ) : (
-                <img src={socialImg.imgPath} alt={`${socialImg.name} icon`} />
+                <img src={socialImg.imgPath} alt={`${socialImg.name} icon`} loading="lazy" />
               )}
             </div>
           ))}

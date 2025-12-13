@@ -98,7 +98,7 @@ const About = () => {
                 🔻Other: React, Next.js, Docker, AWS
                 </li>
               </ul>
-
+              <br />
                 Passionate about AI-powered backend systems. Open to exciting AI/ML projects! 🚀
               <br />
               </p>
