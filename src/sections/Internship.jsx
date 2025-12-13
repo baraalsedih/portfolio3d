@@ -2,13 +2,13 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import { expCards } from "../constants";
+import { internshipCards } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Experience = () => {
+const Internship = () => {
   useGSAP(() => {
     // Loop through each timeline card and animate them in
     // as the user scrolls to each card
@@ -91,17 +91,17 @@ const Experience = () => {
 
   return (
     <section
-      id="experience"
+      id="internship"
       className="flex-center md:mt-40 mt-20 section-padding xl:px-0"
     >
       <div className="w-full h-full md:px-20 px-5">
         <TitleHeader
-          title="Professional Work Experience"
-          sub="💼 My Career Overview"
+          title="Internships and Programs"
+          sub="💼 My training Overview"
         />
         <div className="mt-32 relative">
           <div className="relative z-50 xl:space-y-32 space-y-10">
-            {expCards.map((card) => (
+            {internshipCards.map((card) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
                   {card.companyURL ? (
@@ -143,12 +143,12 @@ const Experience = () => {
                           🗓️&nbsp;{card.date}
                         </p>
                         <p className="text-[#839CB5] italic">
-                          Responsibilities
+                          Overview
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.responsibilities.map(
                             (responsibility, index) => (
-                              <li key={`Experience: ${index}`} className="text-lg">
+                              <li key={`Internship: ${index}`} className="text-lg">
                                 <span dangerouslySetInnerHTML={{ __html: responsibility }} />
                               </li>
                             )
@@ -167,4 +167,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Internship;

@@ -15,6 +15,10 @@ const navLinks = [
     link: "#experience",
   },
   {
+    name: "Internships",
+    link: "#internship",
+  },
+  {
     name: "Education",
     link: "#education"
   },
@@ -33,10 +37,6 @@ const navLinks = [
   {
     name: "Testimonials",
     link: "#testimonials",
-  },
-  {
-    name: "Languages",
-    link: "#languages"
   }
 ];
 
@@ -177,16 +177,84 @@ const expCards = [
   {
     review: "No review yet, soon I will add one.",
     reviewerURL: "",
+    imgPath: "/images/io_health.png",
+    logoPath: "/images/io_health.png",
+    companyName: "iO Health",
+    companyURL: "https://www.linkedin.com/company/io-health/",
+    title: "Junior Machine Learning Engineer",
+    date: "September 2025 - Present",
+    responsibilities: [
+      "Perform data preprocessing and transformation using Pandas, NumPy, and Polars.",
+      "Review teammates’ pull requests and contribute to data analysis, visualization, and building dashboard workflows.",
+      "Develop and maintain efficient pipelines for data loading, merging, and database storage.",
+      "Conduct experiments with various training frameworks and integrate logging using Weights & Biases",
+    ],
+  },
+  {
+    review: "No review, but soon I will try to polish excellent reviews from the next clients.",
+    reviewerURL: "",
+    imgPath: "/images/Freelance.png",
+    logoPath: "/images/Freelance.png",
+    companyName: "Freelance",
+    companyURL: "https://www.linkedin.com/company/s11/",
+    title: "AI/ML Freelancer",
+    date: "April 2025 - Present",
+    responsibilities: [
+      "✓ Intrusion Detection – 99.5% accuracy (CNN+LSTM).",
+      "✓ Bilingual Mental Health Chatbot (Llama 3.3B).",
+      "✓ 3D Pathfinding AI – 100% success rate.",
+    ],
+  },
+  {
+    review: "No review yet, soon I will add one.",
+    reviewerURL: "",
     imgPath: "/images/vss.png",
     logoPath: "/images/vss.png",
     companyName: "Vigilant Security Systems",
     companyURL: "",
     title: "AI & SOC L1 Engineer",
-    date: "July 2025 - Present",
+    date: "July 2025 - Augest 2025",
     responsibilities: [
-      "Still at beginings and soon I will add good description.",
+      "Set up and configured Linux-based virtualized security labs (Kali, Ubuntu, VMware) for real-world SOC training.",
+      "Performed hands-on SOC analysis: log monitoring, threat detection, and incident response workflows.",
+      "Mastered Social Engineering Toolkit (SET) for phishing simulations and penetration testing.",
+      "Worked extensively with network analysis tools (Wireshark, tcpdump, nmap) to detect and analyze suspicious traffic.",
+      "Gained practical exposure to cybersecurity fundamentals in a production-like environment.",
     ],
   },
+  {
+    review: "Yazan Faroun: You were an excellent team member — quick to learn, collaborative, and highly adaptable. You picked up NestJS in no time and made significant contributions to both development and problem-solving discussions. I really appreciated your positive attitude and strong sense of responsibility throughout the project.",
+    reviewerURL: "https://www.linkedin.com/in/yazan-faroun-94776b205/",
+    imgPath: "/images/Freelance.png",
+    logoPath: "/images/Freelance.png",
+    companyName: "Freelance Team",
+    companyURL: "https://www.linkedin.com/company/s11/",
+    title: "Backend Developer",
+    date: "June 2024 - Augest 2024",
+    responsibilities: [
+      "<b>Built scalable RESTful APIs</b> using NestJS (Node.js) and TypeScript with a focus on clean architecture and modular design.",
+      "<b>Managed MongoDB databases</b> with TypeORM, optimizing schema design and improving query performance.",
+      "<b>Collaborated with frontend teams</b> to integrate APIs, implementing secure authentication (JWT, OAuth) and robust error handling.",
+    ],
+  }
+];
+
+const expLogos = [
+  {
+    name: "logo1",
+    imgPath: "/images/logo1.png",
+  },
+  {
+    name: "logo2",
+    imgPath: "/images/logo2.png",
+  },
+  {
+    name: "logo3",
+    imgPath: "/images/logo3.png",
+  }
+];
+
+const internshipCards = [
   {
     review: "No review yet, soon I will add one.",
     reviewerURL: "",
@@ -200,21 +268,6 @@ const expCards = [
       "<b>Mentorship Program:</b> Participated in the GSG x University of Cambridge Mentorship Program, focusing on soft skills, career readiness, and personal development..",
       "<b>One-on-One Coaching:</b> Engaged in regular English communication sessions with a Cambridge student mentor, improving fluency and confidence.",
       "<b>Cross-Cultural Skills:</b> Explored topics like academic support and personal growth, building communication, adaptability, and cultural awareness for global career success.",
-    ],
-  },
-  {
-    review: "No review, but soon I will try to polish excellent reviews from the next clients.",
-    reviewerURL: "",
-    imgPath: "/images/Freelance.png",
-    logoPath: "/images/Freelance.png",
-    companyName: "Freelance",
-    companyURL: "https://www.linkedin.com/company/s11/",
-    title: "AI/ML Freelancer",
-    date: "April 2025 - May 2025",
-    responsibilities: [
-      "<b>Conversational AI:</b> Developed bilingual chatbots using Fine-Tuning and Retrieval-Augmented Generation (RAG) to boost user engagement and response accuracy.",
-      "<b>Reinforcement Learning:</b> Designed and implemented models with Behavioral Cloning, enhancing automated decision-making in dynamic environments.",
-      "<b>Client Collaboration:</b> Worked remotely with clients to deliver custom machine learning solutions, ensuring adaptability and high client satisfaction.",
     ],
   },
   {
@@ -299,7 +352,7 @@ const expCards = [
     logoPath: "/images/udacity.png",
     companyName: "Udacity",
     companyURL: "https://www.linkedin.com/school/udacity/",
-    title: "Machine Learning Intern",
+    title: "Machine Learning Program",
     date: "May 2024 - October 2024",
     responsibilities: [
       "<b>Built supervised and unsupervised ML models</b> using Scikit-learn and TensorFlow, including classification, regression, and clustering techniques.",
@@ -314,44 +367,14 @@ const expCards = [
     logoPath: "/images/datacamp.png",
     companyName: "DataCamp",
     companyURL: "https://www.linkedin.com/school/datacampinc/",
-    title: "Data Science Intern",
+    title: "Data Analyst Intern",
     date: "Jan 2024 - October 2024",
     responsibilities: [
       "Completed hands-on training in Python, SQL, PostgreSQL, Excel, and Power BI through a one-year internship with full access to DataCamp’s learning platform.",
       "Built real-world projects and competed in challenges, applying data analysis and visualization techniques across various domains.",
       "Won 1st place in the DataBridge Hackathon, showcasing strong analytical and problem-solving skills, and earned multiple Data Science certifications.",
     ],
-  },
-  {
-    review: "Yazan Faroun: You were an excellent team member — quick to learn, collaborative, and highly adaptable. You picked up NestJS in no time and made significant contributions to both development and problem-solving discussions. I really appreciated your positive attitude and strong sense of responsibility throughout the project.",
-    reviewerURL: "https://www.linkedin.com/in/yazan-faroun-94776b205/",
-    imgPath: "/images/Freelance.png",
-    logoPath: "/images/Freelance.png",
-    companyName: "Freelance Team",
-    companyURL: "https://www.linkedin.com/company/s11/",
-    title: "Backend Developer",
-    date: "June 2024 - Augest 2024",
-    responsibilities: [
-      "<b>Built scalable RESTful APIs</b> using NestJS (Node.js) and TypeScript with a focus on clean architecture and modular design.",
-      "<b>Managed MongoDB databases</b> with TypeORM, optimizing schema design and improving query performance.",
-      "<b>Collaborated with frontend teams</b> to integrate APIs, implementing secure authentication (JWT, OAuth) and robust error handling.",
-    ],
-  },
-];
-
-const expLogos = [
-  {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
-  },
-  {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
-  },
-  {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
-  },
+  }
 ];
 
 const testimonials = [
@@ -432,6 +455,32 @@ const education = [
 ];
 
 const licensesAndCertifications = [
+  {
+    name: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services (AWS)",
+    issuerURL: "https://www.linkedin.com/company/amazon-web-services/",
+    logoPath: "/images/aws.png",
+    date: "Oct 2025",
+    credentialID: "d2daaa59-b7a6-47e0-8bc3-298fd1ad68f3",
+    credentialURL: "https://www.credly.com/badges/d2daaa59-b7a6-47e0-8bc3-298fd1ad68f3/linked_in_profile",
+    description: "Foundations in cloud computing and AWS services.",
+    skills: [
+      "Machine Learning"
+    ]
+  },
+  {
+    name: "Optimize Your GitHub Profile",
+    issuer: "Udacity",
+    issuerURL: "https://www.linkedin.com/school/udacity/",
+    logoPath: "/images/udacity.png",
+    date: "Aug 2025",
+    credentialID: "fc23c832-7857-11f0-ad1f-d3af1287c077",
+    credentialURL: "www.udacity.com/certificate/e/fc23c832-7857-11f0-ad1f-d3af1287c077",
+    description: "Earners of this badge have completed the Machine Learning Foundations training and achieved the required scores on the post-course assessment. They have demonstrated the ability to discuss the fundamental concepts of machine learning and how to apply the machine learning pipeline to solve a business problem.",
+    skills: [
+      "Machine Learning"
+    ]
+  },
   {
     name: "AWS Educate Machine Learning Foundations",
     issuer: "Amazon Web Services (AWS)",
@@ -829,6 +878,7 @@ export {
   logoIconsList,
   counterItems,
   expCards,
+  internshipCards,
   expLogos,
   testimonials,
   socialImgs,

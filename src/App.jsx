@@ -3,6 +3,7 @@ import Footer from "./sections/Footer";
 import Contact from "./sections/Contact";
 import TechStack from "./sections/TechStack";
 import Experience from "./sections/Experience";
+import Internship from "./sections/Internship";
 import Education from "./sections/Education";
 import LicensesAndCertifications from "./sections/LicensesAndCertifications";
 import Volunteering from "./sections/Volunteering";
@@ -25,6 +26,7 @@ const App = () => (
     <LogoShowcase />
     <FeatureCards />
     <Experience />
+    <Internship />
     <Education />
     <LicensesAndCertifications />
     <Volunteering />

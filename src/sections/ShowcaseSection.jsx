@@ -48,21 +48,40 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project11.png" alt="Ryde App Interface" />
+            <div className="project">
+                <div className="image-wrapper">
+                  <img src="/images/predictive-model.png" alt="Predictive Analytics Model" />
+                </div>
+                <div className="text-content">
+
+                  <h2>Network Intrusion – 99.5% accuracy (CNN+LSTM) </h2>
+                  <p className="text-sm text-white-50 md:text-xl">Data preprocessing, training, evaluation, real-time simulation, and FastAPI deployment</p>
+                </div>
+              </div>
             </div>
-            <div className="text-content">
-              <h2>
-                Help turn ideas into full-stack, AI-enhanced platforms — from backend architecture to mobile apps
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                A platform built with NestJS, React, & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-            </div>
-          </div>
 
           <div className="project-list-wrapper overflow-hidden">
+            {/* New AI/ML projects added first */}
+            <div className="project">
+              <div className="image-wrapper bg-[#E6F7FF]">
+                <img
+                  src="/images/chatbot.png"
+                  alt="LLM-Powered AI Agent"
+                />
+              </div>
+              <h2>Mental Health Chatbot</h2>
+              <p className="text-sm text-white-50 mt-2">Fine-tuned Llama 3.3B + Streamlit UI</p>
+            </div>
+
+            <div className="project">
+              <div className="image-wrapper bg-[#F0FFF4]">
+                <img src="/images/n8n-automation.png" alt="n8n AI Workflow" />
+              </div>
+              <h2>Email Cleaner & Priority Sort AI Agent (n8n + Google Gemini)</h2>
+              <p className="text-sm text-white-50 mt-2">Auto-classifies emails, applies Gmail labels, sends Discord alerts</p>
+            </div>
+
+            {/* Original projects kept below, unchanged */}
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
