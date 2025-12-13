@@ -19,7 +19,7 @@ const navLinks = [
     link: "#education"
   },
   {
-    name: "Certificates",
+    name: "Certifications",
     link: "#certifications"
   },
   {
@@ -42,27 +42,20 @@ const navLinks = [
 
 const words = [
   { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Problems", imgPath: "/images/concepts.svg" },
+  { text: "Data", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
   { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Problems", imgPath: "/images/concepts.svg" },
+  { text: "Data", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
-// const counterItems = [
-//   { value: 15, suffix: "+", label: "Years of Experience" },
-//   { value: 200, suffix: "+", label: "Satisfied Clients" },
-//   { value: 108, suffix: "+", label: "Completed Projects" },
-//   { value: 90, suffix: "%", label: "Client Retention Rate" },
-// ];
-
 const counterItems = [
-  { value: 50, suffix: "+", label: "Projects Completed" },
-  { value: 19, suffix: "+", label: "Certifications Earned" },
-  { value: 100, suffix: "+", label: "Technologies Used" },
-  { value: 10, suffix: "+", label: "Internships & Trainings" },
+  { value: 1, suffix: "+", label: "Years of Experience" },
+  { value: 3, suffix: "", label: "Satisfied Clients" },
+  { value: 24, suffix: "+", label: "Completed Projects" },
+  { value: 21, suffix: "", label: "Certifications" },
 ];
 
 const logoIconsList = [
@@ -133,7 +126,7 @@ const techStackImgs = [
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Data Analyst",
+    name: "Data Science",
     imgPath: "/images/logos/three.png",
   },
   {
@@ -165,14 +158,14 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Data Analysis Projects",
+    name: "Data Projects",
     url: "https://github.com/baraalsedih/Data-Analysis-Projects",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "DevOps & Deployment Projects",
+    name: "Deployment Projects",
     url: "https://github.com/baraalsedih/DevOps-Projects",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,

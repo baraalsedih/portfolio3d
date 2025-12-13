@@ -65,23 +65,42 @@ const About = () => {
           {/* Main Introduction */}
           <div className="text-center mb-12">
             <h2 className="text-1xl md:text-2xl font-semibold mb-6 text-white-50">
-            Full-Stack Developer & AI/ML Engineer | Data Science & Automation (n8n) | Python, Node.js, Flask, NestJS, Spring Boot | React, Next.js | PyTorch, TensorFlow, LangChain, SQL | I Build AI-Integrated Web Apps
+              Junior ML Engineer | AI Chatbots & Agents, DL Models, Backend Pipelines | AWS Certified
             </h2>
           </div>
 
           {/* Main Description */}
           <div className="mb-16">
             <p className="text-white-50 text-lg leading-relaxed text-left max-w-4xl mx-auto">    
-              👋 I’m a Full-Stack Developer & AI/ML Engineer with a strong focus on backend development, intelligent automation, and data-driven solutions. I build scalable APIs, integrate AI models, and automate workflows using tools like n8n.
+          👋 I'm an AI/ML Engineer with strong backend expertise, building intelligent, data-driven web applications.
               <br />
               <br />
-              💡 With 8+ months of backend experience (NestJS, Node.js, Next.js, Spring Boot, Flask) and 1+ year in AI/ML, data science, and analysis, I deliver end-to-end solutions — from data preprocessing and model training to full-stack integration and deployment.
+                   💡1+ year in AI/ML & data science: Model development with PyTorch, TensorFlow, LangChain, OpenAI, Hugging Face.
               <br />
               <br />
-              🔧 Tech Stack: Python, JavaScript, TypeScript, React, Next.js, Node.js, NestJS, SQL, MongoDB, Docker, AWS, TensorFlow, LangChain, OpenAI, HuggingFace, Pandas, Power BI.
+              8+ months backend: NestJS, Node.js, Flask, Spring Boot — creating scalable APIs and AI integrations (LLMs, predictive analytics, n8n automation).
               <br />
               <br />
-              I'm passionate about merging automation, AI, and web development to build smart, impactful software.
+              Full pipeline: Data preprocessing (Pandas, SQL), model training, backend inference, deployment (React/Next.js, MongoDB, Docker, AWS).
+              <br />
+              <br />
+              🔧 Core Stack:
+              <ul>
+                <li>
+                🔻AI/ML: Python, TensorFlow, PyTorch, LangChain, OpenAI, Hugging Face, Pandas
+                </li>
+                <li>
+                🔻Backend: NestJS, Node.js, Flask, SQL/MongoDB
+
+                </li>
+
+                <li>
+                🔻Other: React, Next.js, Docker, AWS
+                </li>
+              </ul>
+
+                Passionate about AI-powered backend systems. Open to exciting AI/ML projects! 🚀
+              <br />
               </p>
           </div>
 
@@ -95,7 +114,7 @@ const About = () => {
               {/* Languages & Tools */}
               <GlowCard card={{ review: "Languages & Tools" }} index={0}>
                 <div className="space-y-2">
-                  {["Python", "JavaScript", "TypeScript", "Spring Boot", "SQL", "React", "Next.js", "Node.js", "NestJS", "Flask"].map((tool, index) => (
+                  {["Python", "JavaScript", "TypeScript", "Spring Boot", "SQL", "React", "Next.js", "Node.js", "NestJS", "Flask", "FastAPI"].map((tool, index) => (
                     <div key={index} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
                       <span className="text-white-50">{tool}</span>
@@ -105,9 +124,9 @@ const About = () => {
               </GlowCard>
 
               {/* AI/ML Frameworks */}
-              <GlowCard card={{ review: "AI/ML Frameworks" }} index={1}>
+              <GlowCard card={{ review: "AI/ML Frameworks & Tools" }} index={1}>
                 <div className="space-y-2">
-                  {["TensorFlow", "PyTorch", "scikit-learn", "LangChain"].map((framework, index) => (
+                  {["TensorFlow", "PyTorch", "scikit-learn", "LangChain", "n8n", "Weights & Biases (W&B)", "Hugging Face (Transformers)"].map((framework, index) => (
                     <div key={index} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
                       <span className="text-white-50">{framework}</span>
@@ -116,25 +135,25 @@ const About = () => {
                 </div>
               </GlowCard>
 
-              {/* Databases */}
-              <GlowCard card={{ review: "Databases" }} index={2}>
+              {/* Data Analysis */}
+              <GlowCard card={{ review: "Data Sceince" }} index={3}>
                 <div className="space-y-2">
-                  {["MySQL", "MongoDB", "PostgreSQL", "SQLite", "Firebase", "Supabase"].map((db, index) => (
+                  {["Pandas & NumPy", "Polars", "Matplotlib & Seaborn", "Power BI", "Excel & Google Sheets"].map((tool, index) => (
                     <div key={index} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
-                      <span className="text-white-50">{db}</span>
+                      <span className="text-white-50">{tool}</span>
                     </div>
                   ))}
                 </div>
               </GlowCard>
 
-              {/* Data Analysis */}
-              <GlowCard card={{ review: "Data Analysis" }} index={3}>
+              {/* Databases */}
+              <GlowCard card={{ review: "Databases" }} index={2}>
                 <div className="space-y-2">
-                  {["Pandas", "NumPy", "Matplotlib", "Power BI", "Excel"].map((tool, index) => (
+                  {["MySQL", "MongoDB", "PostgreSQL", "Doris", "FAISS", "ChromaDB", "SQLite", "Firebase", "Supabase"].map((db, index) => (
                     <div key={index} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
-                      <span className="text-white-50">{tool}</span>
+                      <span className="text-white-50">{db}</span>
                     </div>
                   ))}
                 </div>
