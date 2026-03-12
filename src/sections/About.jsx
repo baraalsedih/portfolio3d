@@ -65,41 +65,32 @@ const About = () => {
           {/* Main Introduction */}
           <div className="text-center mb-12">
             <h2 className="text-1xl md:text-2xl font-semibold mb-6 text-white-50">
-              Junior ML Engineer | AI Chatbots & Agents, DL Models, Backend Pipelines | AWS Certified
+              ML Engineer at iO Health | Production ML Systems, MLOps & Model Deployment
             </h2>
           </div>
 
           {/* Main Description */}
           <div className="mb-16">
             <p className="text-white-50 text-lg leading-relaxed text-left max-w-4xl mx-auto">    
-          👋 I'm an AI/ML Engineer with strong backend expertise, building intelligent, data-driven web applications.
+          I’m an ML Engineer focused on building production-grade ML systems, not research prototypes.
               <br />
               <br />
-                   💡1+ year in AI/ML & data science: Model development with PyTorch, TensorFlow, LangChain, OpenAI, Hugging Face.
+                    My work sits at the intersection of machine learning, backend engineering, and MLOps — taking models from training to reliable deployment and long-term operation.
               <br />
               <br />
-              8+ months backend: NestJS, Node.js, Flask, Spring Boot — creating scalable APIs and AI integrations (LLMs, predictive analytics, n8n automation).
+              I’ve designed and built:
+              <br />
+              – ML model serving layers and scalable APIs
+              <br />
+              – Packaging and delivery pipelines for client deployments
+              <br />
+              – Monitoring and observability pipelines for deployed models (performance, data drift, reliability)
               <br />
               <br />
-              Full pipeline: Data preprocessing (Pandas, SQL), model training, backend inference, deployment (React/Next.js, MongoDB, Docker, AWS).
+              I work across the full lifecycle: data preparation, model training, backend integration, deployment, and post-deployment monitoring, mainly using Python, modern backend frameworks, and cloud infrastructure.
               <br />
               <br />
-              🔧 Core Stack:
-              <ul>
-                <li>
-                🔻AI/ML: Python, TensorFlow, PyTorch, LangChain, OpenAI, Hugging Face, Pandas
-                </li>
-                <li>
-                🔻Backend: NestJS, Node.js, Flask, SQL/MongoDB
-
-                </li>
-
-                <li>
-                🔻Other: React, Next.js, Docker, AWS
-                </li>
-              </ul>
-              <br />
-                Passionate about AI-powered backend systems. Open to exciting AI/ML projects! 🚀
+                I’m especially interested in systems where ML reliability, automation, and infrastructure matter as much as model accuracy.
               <br />
               </p>
           </div>

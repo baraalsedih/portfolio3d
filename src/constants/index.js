@@ -55,7 +55,7 @@ const counterItems = [
   { value: 1, suffix: "+", label: "Years of Experience" },
   { value: 3, suffix: "", label: "Satisfied Clients" },
   { value: 24, suffix: "+", label: "Completed Projects" },
-  { value: 22, suffix: "", label: "Certifications" },
+  { value: 28, suffix: "", label: "Certifications" },
 ];
 
 const logoIconsList = [
@@ -181,13 +181,13 @@ const expCards = [
     logoPath: "/images/io_health.png",
     companyName: "iO Health",
     companyURL: "https://www.linkedin.com/company/io-health/",
-    title: "Junior Machine Learning Engineer",
+    title: "Machine Learning Engineer",
     date: "September 2025 - Present",
     responsibilities: [
-      "Perform data preprocessing and transformation using Pandas, NumPy, and Polars.",
-      "Review teammates’ pull requests and contribute to data analysis, visualization, and building dashboard workflows.",
-      "Develop and maintain efficient pipelines for data loading, merging, and database storage.",
-      "Conduct experiments with various training frameworks and integrate logging using Weights & Biases",
+      "Design and build production-ready ML systems from training to deployment.",
+      "Develop model serving and packaging pipelines for client-ready delivery.",
+      "Implement monitoring and observability pipelines for deployed ML models (performance, reliability, data behavior).",
+      "Collaborate with DevOps teams to ensure deployable, maintainable ML services following MLOps best practices.",
     ],
   },
   {
@@ -455,6 +455,84 @@ const education = [
 ];
 
 const licensesAndCertifications = [
+  {
+    name: "DevOps, DataOps, MLOps Fundamentals",
+    issuer: "Duke University",
+    issuerURL: "https://www.linkedin.com/school/duke-university/",
+    logoPath: "/images/duke_university.jpg",
+    date: "Feb 2026",
+    credentialID: "R6BR5RX3DHBA",
+    credentialURL: "https://www.coursera.org/account/accomplishments/verify/R6BR5RX3DHBA",
+    description: "Fundamentals of DevOps, DataOps, and MLOps covering CI/CD pipelines, data operations, and machine learning lifecycle management.",
+    skills: [
+      "DevOps", "DataOps", "MLOps", "CI/CD", "Machine Learning"
+    ]
+  },
+  {
+    name: "Python Essentials for MLOps",
+    issuer: "Duke University",
+    issuerURL: "https://www.linkedin.com/school/duke-university/",
+    logoPath: "/images/duke_university.jpg",
+    date: "Jan 2026",
+    credentialID: "UCMJI2PBP2Z6",
+    credentialURL: "https://www.coursera.org/account/accomplishments/records/UCMJI2PBP2Z6",
+    description: "Python programming essentials for MLOps, covering scripting, automation, and tooling for machine learning operations.",
+    skills: [
+      "Python", "MLOps", "Machine Learning", "DevOps"
+    ]
+  },
+  {
+    name: "Building AI Agents and Agentic Workflows",
+    issuer: "IBM",
+    issuerURL: "https://www.linkedin.com/company/ibm/",
+    logoPath: "/images/ibm_logo.jpg",
+    date: "Jan 2026",
+    credentialID: "23SI7M5FN37R",
+    credentialURL: "https://www.coursera.org/account/accomplishments/specialization/certificate/23SI7M5FN37R",
+    description: "Specialization covering design and implementation of AI agents and agentic workflows for real-world automation tasks.",
+    skills: [
+      "Agentic AI", "AI Agents", "LangChain", "Machine Learning", "Python"
+    ]
+  },
+  {
+    name: "Agentic AI with LangGraph, CrewAI, and AutoGen",
+    issuer: "IBM",
+    issuerURL: "https://www.linkedin.com/company/ibm/",
+    logoPath: "/images/ibm_logo.jpg",
+    date: "Jan 2026",
+    credentialID: "5AGT6X5039XH",
+    credentialURL: "https://www.coursera.org/account/accomplishments/records/5AGT6X5039XH",
+    description: "Building agentic AI applications using LangGraph, CrewAI, and AutoGen frameworks for multi-agent collaboration.",
+    skills: [
+      "Agentic AI", "LangGraph", "CrewAI", "AutoGen", "AI Agents", "Python"
+    ]
+  },
+  {
+    name: "Agentic AI with LangChain, LangGraph, BeeAI, and AG2",
+    issuer: "IBM",
+    issuerURL: "https://www.linkedin.com/company/ibm/",
+    logoPath: "/images/ibm_logo.jpg",
+    date: "Jan 2026",
+    credentialID: "9FG51GO6Y6EG",
+    credentialURL: "https://www.coursera.org/account/accomplishments/verify/9FG51GO6Y6EG",
+    description: "Building agentic AI systems using LangChain, LangGraph, BeeAI, and AG2 frameworks for autonomous AI workflows.",
+    skills: [
+      "Agentic AI", "LangChain", "LangGraph", "AI Agents", "Python"
+    ]
+  },
+  {
+    name: "Fundamentals of NestJS",
+    issuer: "Board Infinity",
+    issuerURL: "https://www.linkedin.com/company/board-infinity/",
+    logoPath: "/images/nestjs.jpg",
+    date: "Dec 2025",
+    credentialID: "R52M5PWTM9P8",
+    credentialURL: "https://www.coursera.org/account/accomplishments/verify/R52M5PWTM9P8",
+    description: "Fundamentals of NestJS framework for building scalable and maintainable server-side applications with Node.js.",
+    skills: [
+      "NestJS", "Node.js", "TypeScript", "REST APIs", "Backend Development"
+    ]
+  },
   {
     name: "Python Data Associate",
     issuer: "DataCamp",
