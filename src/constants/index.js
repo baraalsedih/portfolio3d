@@ -19,20 +19,20 @@ const navLinks = [
     link: "#internship",
   },
   {
-    name: "Certifications",
-    link: "#certifications"
-  },
-  {
     name: "Education",
     link: "#education"
   },
   {
-    name: "Honors",
-    link: "#awards"
+    name: "Certifications",
+    link: "#certifications"
   },
   {
     name: "Volunteering",
     link: "#volunteering"
+  },
+  {
+    name: "Honors",
+    link: "#awards"
   },
   {
     name: "Testimonials",
