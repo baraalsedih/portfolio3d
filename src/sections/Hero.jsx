@@ -51,8 +51,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Bara, a Machine Learning Engineer based in Palestine with a passion for
-              data & coding.
+              Hi, I’m Bara. I build the systems that take ML models from training to reliable production.
             </p>
 
             <Button

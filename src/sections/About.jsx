@@ -71,28 +71,9 @@ const About = () => {
 
           {/* Main Description */}
           <div className="mb-16">
-            <p className="text-white-50 text-lg leading-relaxed text-left max-w-4xl mx-auto">    
-          I’m an ML Engineer focused on building production-grade ML systems, not research prototypes.
-              <br />
-              <br />
-                    My work sits at the intersection of machine learning, backend engineering, and MLOps — taking models from training to reliable deployment and long-term operation.
-              <br />
-              <br />
-              I’ve designed and built:
-              <br />
-              – ML model serving layers and scalable APIs
-              <br />
-              – Packaging and delivery pipelines for client deployments
-              <br />
-              – Monitoring and observability pipelines for deployed models (performance, data drift, reliability)
-              <br />
-              <br />
-              I work across the full lifecycle: data preparation, model training, backend integration, deployment, and post-deployment monitoring, mainly using Python, modern backend frameworks, and cloud infrastructure.
-              <br />
-              <br />
-                I’m especially interested in systems where ML reliability, automation, and infrastructure matter as much as model accuracy.
-              <br />
-              </p>
+            <p className="text-white-50 text-lg leading-relaxed text-left max-w-4xl mx-auto">
+              ML Engineer with production experience building the systems that make models reliable after training. Specializes in the engineering layer between model development and deployment: model serving, packaging pipelines, observability platforms, CI/CD automation, and API-level evaluation workflows. Currently co-building the MLOps function at a healthcare tech company as a core member of a dedicated MLOps team. Proficient in TensorFlow, Scikit-Learn, PyTorch, and Python across end-to-end ML systems — from data preprocessing and feature engineering through model serving and real-time monitoring.
+            </p>
           </div>
 
           {/* Toolbox Section */}
@@ -102,11 +83,11 @@ const About = () => {
             </h3>
             
             <div className="lg:columns-3 md:columns-2 columns-1">
-              {/* Languages & Tools */}
-              <GlowCard card={{ review: "Languages & Tools" }} index={0}>
+              {/* Machine Learning */}
+              <GlowCard card={{ review: "Machine Learning" }} index={0}>
                 <div className="space-y-2">
-                  {["Python", "JavaScript", "TypeScript", "Spring Boot", "SQL", "React", "Next.js", "Node.js", "NestJS", "Flask", "FastAPI"].map((tool, index) => (
-                    <div key={index} className="flex items-center gap-2">
+                  {["TensorFlow", "Scikit-Learn", "PyTorch", "Supervised & Unsupervised Learning", "Neural Networks", "CNN", "Feature Engineering", "Model Evaluation", "Hyperparameter Tuning", "Time Series Forecasting"].map((tool, i) => (
+                    <div key={i} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
                       <span className="text-white-50">{tool}</span>
                     </div>
@@ -114,23 +95,11 @@ const About = () => {
                 </div>
               </GlowCard>
 
-              {/* AI/ML Frameworks */}
-              <GlowCard card={{ review: "AI/ML Frameworks & Tools" }} index={1}>
+              {/* MLOps & Production */}
+              <GlowCard card={{ review: "MLOps & Production" }} index={1}>
                 <div className="space-y-2">
-                  {["TensorFlow", "PyTorch", "scikit-learn", "LangChain", "n8n", "Weights & Biases (W&B)", "Hugging Face (Transformers)"].map((framework, index) => (
-                    <div key={index} className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
-                      <span className="text-white-50">{framework}</span>
-                    </div>
-                  ))}
-                </div>
-              </GlowCard>
-
-              {/* Data Analysis */}
-              <GlowCard card={{ review: "Data Sceince" }} index={3}>
-                <div className="space-y-2">
-                  {["Pandas & NumPy", "Polars", "Matplotlib & Seaborn", "Power BI", "Excel & Google Sheets"].map((tool, index) => (
-                    <div key={index} className="flex items-center gap-2">
+                  {["Model Monitoring", "Data Drift Detection", "Model Serving", "API Evaluation Testing", "Model Packaging", "CI/CD (GitHub Actions)", "Docker", "Weights & Biases (W&B)", "FastAPI", "Streamlit"].map((tool, i) => (
+                    <div key={i} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
                       <span className="text-white-50">{tool}</span>
                     </div>
@@ -138,23 +107,47 @@ const About = () => {
                 </div>
               </GlowCard>
 
-              {/* Databases */}
-              <GlowCard card={{ review: "Databases" }} index={2}>
+              {/* Data Engineering */}
+              <GlowCard card={{ review: "Data Engineering" }} index={2}>
                 <div className="space-y-2">
-                  {["MySQL", "MongoDB", "PostgreSQL", "Doris", "FAISS", "ChromaDB", "SQLite", "Firebase", "Supabase"].map((db, index) => (
-                    <div key={index} className="flex items-center gap-2">
+                  {["Pandas", "NumPy", "Polars", "Data Cleaning", "Feature Engineering", "Exploratory Data Analysis (EDA)", "SQL"].map((tool, i) => (
+                    <div key={i} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
-                      <span className="text-white-50">{db}</span>
+                      <span className="text-white-50">{tool}</span>
                     </div>
                   ))}
                 </div>
               </GlowCard>
 
-              {/* DevOps & Deployment */}
-              <GlowCard card={{ review: "DevOps & Deployment" }} index={4}>
+              {/* AI & NLP */}
+              <GlowCard card={{ review: "AI & NLP" }} index={3}>
                 <div className="space-y-2">
-                  {["Docker", "Git", "CI/CD", "Cloud Integration", "AWS"].map((tool, index) => (
-                    <div key={index} className="flex items-center gap-2">
+                  {["Transformers (Hugging Face)", "LangChain", "Fine-tuning (LLaMA)", "RAG", "OpenAI API"].map((tool, i) => (
+                    <div key={i} className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
+                      <span className="text-white-50">{tool}</span>
+                    </div>
+                  ))}
+                </div>
+              </GlowCard>
+
+              {/* Infrastructure & Tools */}
+              <GlowCard card={{ review: "Infrastructure & Tools" }} index={4}>
+                <div className="space-y-2">
+                  {["Docker", "AWS", "Git", "Poetry", "Makefile", "PostgreSQL", "MongoDB", "MySQL"].map((tool, i) => (
+                    <div key={i} className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
+                      <span className="text-white-50">{tool}</span>
+                    </div>
+                  ))}
+                </div>
+              </GlowCard>
+
+              {/* Programming */}
+              <GlowCard card={{ review: "Programming" }} index={5}>
+                <div className="space-y-2">
+                  {["Python", "SQL", "JavaScript/TypeScript", "Java", "C/C++"].map((tool, i) => (
+                    <div key={i} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
                       <span className="text-white-50">{tool}</span>
                     </div>

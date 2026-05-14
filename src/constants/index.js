@@ -19,20 +19,20 @@ const navLinks = [
     link: "#internship",
   },
   {
-    name: "Education",
-    link: "#education"
-  },
-  {
     name: "Certifications",
     link: "#certifications"
   },
   {
-    name: "Volunteering",
-    link: "#volunteering"
+    name: "Education",
+    link: "#education"
   },
   {
     name: "Honors",
     link: "#awards"
+  },
+  {
+    name: "Volunteering",
+    link: "#volunteering"
   },
   {
     name: "Testimonials",
@@ -41,19 +41,19 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Problems", imgPath: "/images/concepts.svg" },
-  { text: "Data", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Problems", imgPath: "/images/concepts.svg" },
-  { text: "Data", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Models", imgPath: "/images/ideas.svg" },
+  { text: "Pipelines", imgPath: "/images/concepts.svg" },
+  { text: "Deployments", imgPath: "/images/designs.svg" },
+  { text: "Systems", imgPath: "/images/code.svg" },
+  { text: "Models", imgPath: "/images/ideas.svg" },
+  { text: "Pipelines", imgPath: "/images/concepts.svg" },
+  { text: "Deployments", imgPath: "/images/designs.svg" },
+  { text: "Systems", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
+  { value: 5, suffix: "+", label: "Production ML Systems" },
   { value: 1, suffix: "+", label: "Years of Experience" },
-  { value: 3, suffix: "", label: "Satisfied Clients" },
   { value: 24, suffix: "+", label: "Completed Projects" },
   { value: 28, suffix: "", label: "Certifications" },
 ];
@@ -114,59 +114,59 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "Full-Stack Developer",
+    name: "MLOps & Deployment",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "AI/ML Engineer",
+    name: "ML & Deep Learning",
     imgPath: "/images/logos/python.svg",
   },
   {
-    name: "Backend Developer",
+    name: "Data Engineering",
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Data Science",
+    name: "Model Serving & APIs",
     imgPath: "/images/logos/three.png",
   },
   {
-    name: "DevOps & Deployment",
+    name: "CI/CD & Automation",
     imgPath: "/images/logos/git.svg",
   },
 ];
 
 const techStackIcons = [
   {
-    name: "Full-Stack Projects",
-    url: "https://github.com/baraalsedih/Full-Stack-Projects",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
+    name: "MLOps & Deployment",
+    url: "https://github.com/baraalsedih/AI-ML-Projects",
+    modelPath: "/models/computer-optimized-transformed.glb",
+    scale: 0.01,
+    rotation: [0, -Math.PI / 4, 0],
   },
   {
-    name: "AI/ML Projects",
+    name: "ML & Deep Learning",
     url: "https://github.com/baraalsedih/AI-ML-Projects",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Projects",
-    url: "https://github.com/baraalsedih/Backend-Projects",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "Data Projects",
-    url: "https://github.com/baraalsedih/Data-Analysis-Projects",
+    name: "Data Engineering",
+    url: "https://github.com/baraalsedih/AI-ML-Projects",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Deployment Projects",
-    url: "https://github.com/baraalsedih/DevOps-Projects",
+    name: "Model Serving & APIs",
+    url: "https://github.com/baraalsedih/AI-ML-Projects",
+    modelPath: "/models/node-transformed.glb",
+    scale: 5,
+    rotation: [0, -Math.PI / 2, 0],
+  },
+  {
+    name: "CI/CD & Automation",
+    url: "https://github.com/baraalsedih/AI-ML-Projects",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -181,13 +181,14 @@ const expCards = [
     logoPath: "/images/io_health.png",
     companyName: "iO Health",
     companyURL: "https://www.linkedin.com/company/io-health/",
-    title: "Machine Learning Engineer",
-    date: "September 2025 - Present",
+    title: "Machine Learning Engineer — MLOps Focus",
+    date: "Sep 2025 – Present",
     responsibilities: [
-      "Design and build production-ready ML systems from training to deployment.",
-      "Develop model serving and packaging pipelines for client-ready delivery.",
-      "Implement monitoring and observability pipelines for deployed ML models (performance, reliability, data behavior).",
-      "Collaborate with DevOps teams to ensure deployable, maintainable ML services following MLOps best practices.",
+      "Core member of a dedicated MLOps team, co-building the engineering infrastructure that takes models from training to reliable production — owning half of the team's scope end-to-end.",
+      "Built a model serving system with automated API-level evaluation testing to validate model behavior post-deployment, ensuring consistent and reproducible production rollouts.",
+      "Engineered a model packaging pipeline converting trained models into configurable .exe/.bin distribution tools for client-side training — built with Poetry for dependency and version management and Makefile-driven interfaces for complex command workflows.",
+      "Implemented CI/CD pipelines for ML model releases using GitHub Actions, including automated integration testing and database migration workflows across development and production environments.",
+      "Developed data preprocessing and transformation pipelines using Pandas, NumPy, and Polars; integrated experiment tracking and model performance logging with Weights & Biases (W&B).",
     ],
   },
   {
@@ -203,23 +204,6 @@ const expCards = [
       "✓ Intrusion Detection – 99.5% accuracy (CNN+LSTM).",
       "✓ Bilingual Mental Health Chatbot (Llama 3.3B).",
       "✓ 3D Pathfinding AI – 100% success rate.",
-    ],
-  },
-  {
-    review: "No review yet, soon I will add one.",
-    reviewerURL: "",
-    imgPath: "/images/vss.png",
-    logoPath: "/images/vss.png",
-    companyName: "Vigilant Security Systems",
-    companyURL: "",
-    title: "AI & SOC L1 Engineer",
-    date: "July 2025 - Augest 2025",
-    responsibilities: [
-      "Set up and configured Linux-based virtualized security labs (Kali, Ubuntu, VMware) for real-world SOC training.",
-      "Performed hands-on SOC analysis: log monitoring, threat detection, and incident response workflows.",
-      "Mastered Social Engineering Toolkit (SET) for phishing simulations and penetration testing.",
-      "Worked extensively with network analysis tools (Wireshark, tcpdump, nmap) to detect and analyze suspicious traffic.",
-      "Gained practical exposure to cybersecurity fundamentals in a production-like environment.",
     ],
   },
   {
@@ -255,36 +239,6 @@ const expLogos = [
 ];
 
 const internshipCards = [
-  {
-    review: "No review yet, soon I will add one.",
-    reviewerURL: "",
-    imgPath: "/images/gsg.png",
-    logoPath: "/images/gsg.png",
-    companyName: "Gaza Sky Geeks",
-    companyURL: "https://www.linkedin.com/company/gaza-sky-geeks/",
-    title: "Mentee – GSG x University of Cambridge Mentorship Program",
-    date: "May 2025 - Present",
-    responsibilities: [
-      "<b>Mentorship Program:</b> Participated in the GSG x University of Cambridge Mentorship Program, focusing on soft skills, career readiness, and personal development..",
-      "<b>One-on-One Coaching:</b> Engaged in regular English communication sessions with a Cambridge student mentor, improving fluency and confidence.",
-      "<b>Cross-Cultural Skills:</b> Explored topics like academic support and personal growth, building communication, adaptability, and cultural awareness for global career success.",
-    ],
-  },
-  {
-    review: "I am waiting for the review from Joe Allen – Founder of Launched – but I am sure it will be a good one.",
-    reviewerURL: "https://www.linkedin.com/in/joeallen20/",
-    imgPath: "/images/launched.png",
-    logoPath: "/images/launched.png",
-    companyName: "Launched",
-    companyURL: "https://www.linkedin.com/company/launchedtech/",
-    title: "AI & Full-Stack developer Intern",
-    date: "April 2025 - May 2025",
-    responsibilities: [
-      "<b>Full-Stack Development:</b> Contributed to the company’s main product by identifying and resolving bugs using Next.js and modern web development practices.",
-      "<b>AI Integration:</b> Assisted in building AI-driven features to enhance product functionality and user experience.",
-      "<b>Data Scraping:</b> Implemented web scraping solutions to gather structured data for use in analytics and product automation.",
-    ],
-  },
   {
     review: "No review, but you can see my internship roadmap, and projects on my internship GitHub organization",
     reviewerURL: "https://github.com/DeepLearningIntern",
@@ -331,21 +285,6 @@ const internshipCards = [
     ],
   },
   {
-    review: "No review, but you can see my internship roadmap, and projects on my internship GitHub organization",
-    reviewerURL: "https://github.com/AhdTech-Backend-Intern",
-    imgPath: "/images/ahd.png",
-    logoPath: "/images/ahd.png",
-    companyName: " العهد لتقنيات الكمبيوتر وتطوير المواقع والمتاجر الالكترونية ",
-    companyURL: "https://www.linkedin.com/company/alahd-tech/",
-    title: "Backend Developer Intern",
-    date: "May 2024 - October 2024",
-    responsibilities: [
-      "<b>Completed a 320-hour Java backend training,</b> building RESTful APIs with Spring Boot, Spring Data JPA, and Spring Security for real-world applications.",
-      "<b>Developed microservices</b> for an e-commerce capstone project, including user, product, and order modules with secure JWT-based authentication.",
-      "<b>Collaborated in code reviews and pair programming,</b> delivering a fully functional backend system now used as a model for future company projects.",
-    ],
-  },
-  {
     review: "I am waiting for the review from  Suzan Barghouti from Stichting SPARK – Organizer of Palestine Launchpad program – but I am sure it will be a good one.",
     reviewerURL: "https://www.linkedin.com/in/suzan-barghouti-170638286/",
     imgPath: "/images/udacity.png",
@@ -360,21 +299,6 @@ const internshipCards = [
       "<b>Completed hands-on projects</b> involving data cleaning, feature engineering, and model evaluation, strengthening practical machine learning skills.",
     ],
   },
-  {
-    review: "I am still watining for the review from the Leyan Zahdeh from Gaza Sky Geeks – Which was the supervisor of the internship – but I am sure it will be a good one.",
-    reviewerURL: "https://www.linkedin.com/in/leyan-zahdeh-%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%F0%9F%97%AF-736907215/",
-    imgPath: "/images/datacamp.png",
-    logoPath: "/images/datacamp.png",
-    companyName: "DataCamp",
-    companyURL: "https://www.linkedin.com/school/datacampinc/",
-    title: "Data Analyst Intern",
-    date: "Jan 2024 - October 2024",
-    responsibilities: [
-      "Completed hands-on training in Python, SQL, PostgreSQL, Excel, and Power BI through a one-year internship with full access to DataCamp’s learning platform.",
-      "Built real-world projects and competed in challenges, applying data analysis and visualization techniques across various domains.",
-      "Won 1st place in the DataBridge Hackathon, showcasing strong analytical and problem-solving skills, and earned multiple Data Science certifications.",
-    ],
-  }
 ];
 
 const testimonials = [
@@ -564,19 +488,6 @@ const licensesAndCertifications = [
     ]
   },
   {
-    name: "Optimize Your GitHub Profile",
-    issuer: "Udacity",
-    issuerURL: "https://www.linkedin.com/school/udacity/",
-    logoPath: "/images/udacity.png",
-    date: "Aug 2025",
-    credentialID: "fc23c832-7857-11f0-ad1f-d3af1287c077",
-    credentialURL: "www.udacity.com/certificate/e/fc23c832-7857-11f0-ad1f-d3af1287c077",
-    description: "Optimize GitHub profile to showcase my projects and work.",
-    skills: [
-      "Machine Learning"
-    ]
-  },
-  {
     name: "AWS Educate Machine Learning Foundations",
     issuer: "Amazon Web Services (AWS)",
     issuerURL: "https://www.linkedin.com/company/amazon-web-services/",
@@ -694,58 +605,6 @@ const licensesAndCertifications = [
     ]
   },
   {
-    name: "Software Engineering Inter",
-    issuer: "HackerRank",
-    issuerURL: "https://www.linkedin.com/company/hackerrank/",
-    logoPath: "/images/hackerrank.png",
-    date: "Jan 2025",
-    credentialID: "b0f26f3c728a",
-    credentialURL: "https://www.hackerrank.com/certificates/b0f26f3c728a",
-    description: "Earned certification by demonstrating advanced SQL skills and problem-solving abilities for relational databases. Tackled real-world scenarios with complex queries, data retrieval, and logical reasoning. Key skills include efficient use of JOINs, sorting and filtering data, solving database problems with critical thinking, and ensuring data integrity. Highlights proficiency in SQL for database management and data-driven decision-making.",
-    skills: [
-      "MySQL", "SQL", "Problem Solving", "Python (Programming Language)"
-    ]
-  },
-  {
-    name: "CSS Basic Certificate",
-    issuer: "HackerRank",
-    issuerURL: "https://www.linkedin.com/company/hackerrank/",
-    logoPath: "/images/hackerrank.png",
-    date: "Dec 2024",
-    credentialID: "ad7665968ab8",
-    credentialURL: "https://www.hackerrank.com/certificates/ad7665968ab8",
-    description: "I have earned CSS Basic certificate by solving many problems on HackerRank.",
-    skills: [
-      "Cascading Style Sheets (CSS)"
-    ]
-  },
-  {
-    name: "Java Basic Certificate",
-    issuer: "HackerRank",
-    issuerURL: "https://www.linkedin.com/company/hackerrank/",
-    logoPath: "/images/hackerrank.png",
-    date: "Dec 2024",
-    credentialID: "d3749873db0e",
-    credentialURL: "https://www.hackerrank.com/certificates/d3749873db0e",
-    description: "I have earned a java basic certificate on HackerRank, by solving many problems and questions.",
-    skills: [
-      "Data Structures", "Java"
-    ]
-  },
-  {
-    name: "JavaScript Basic Certificate",
-    issuer: "HackerRank",
-    issuerURL: "https://www.linkedin.com/company/hackerrank/",
-    logoPath: "/images/hackerrank.png",
-    date: "Dec 2024",
-    credentialID: "d4e201ee514f",
-    credentialURL: "https://www.hackerrank.com/certificates/d4e201ee514f",
-    description: "JavaScript certification earned on HackerRank after doing an assessment.",
-    skills: [
-      "Data Structures", "JavaScript"
-    ]
-  },
-  {
     name: "Intro to Machine Learning with TensorFlow",
     issuer: "Udacity",
     issuerURL: "https://www.linkedin.com/school/udacity/",
@@ -756,71 +615,6 @@ const licensesAndCertifications = [
     description: "Machine Learning nanodegree program covering supervised and unsupervised learning, neural networks, and deep learning applications.",
     skills: [
       "TensorFlow", "Data Wrangling", "Data Analytics", "Machine Learning", "Data Science", "Data Analysis"
-    ]
-  },
-  {
-    name: "Data Analytics Bootcamp",
-    issuer: "YouTube",
-    issuerURL: "https://www.linkedin.com/company/youtube/",
-    logoPath: "/images/youtube.png",
-    date: "Aug 2024",
-    credentialID: "",
-    credentialURL: "https://github.com/Data-Analyst-Bootcamp",
-    description: "I have complete the Data Analysis Bootcamp with Alex The Analyst on YouTube, gained many skills, and built many projects.",
-    skills: [
-      "Datasets",
-      "Web Scraping",
-      "Data Visualization",
-      "Extract, Transform, Load (ETL)",
-      "Data Analytics",
-      "MySQL", "Microsoft Excel", "Data Manipulation", "Data Science", "Microsoft Power BI",
-      "Data Cleaning", "Python"
-    ]
-  },
-  {
-    name: "AI Fundamentals Certificate",
-    issuer: "DataCamp",
-    issuerURL: "https://www.linkedin.com/school/datacampinc/",
-    logoPath: "/images/datacamp.png",
-    date: "May 2024",
-    credentialID: "AIF0022760445620",
-    credentialURL: "https://www.datacamp.com/skill-verification/AIF0022760445620",
-    description: "I have completed the AI Fundamentals track, performed an exam, and gained a certification.",
-    skills: [
-      "Artificial Intelligence (AI)",
-      "Data Analytics",
-      "Data Science",
-    ]
-  },
-  {
-    name: "Data Literacy Certificate",
-    issuer: "DataCamp",
-    issuerURL: "https://www.linkedin.com/school/datacampinc/",
-    logoPath: "/images/datacamp.png",
-    date: "May 2024",
-    credentialID: "DL0036510518177",
-    credentialURL: "https://www.datacamp.com/skill-verification/DL0036510518177",
-    description: "I have completed the DataCamp track for data literacy, finished the exam, and gained certification.",
-    skills: [
-      "Data Literacy",
-      "Data Analytics",
-      "Data Science",
-    ]
-  },
-  {
-    name: "Python Basic Certification",
-    issuer: "HackerRank",
-    issuerURL: "https://www.linkedin.com/company/hackerrank/",
-    logoPath: "/images/hackerrank.png",
-    date: "May 2024",
-    credentialID: "7436060828e3",
-    credentialURL: "https://www.hackerrank.com/certificates/7436060828e3",
-    description: "It covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes",
-    skills: [
-      "Data Analytics",
-      "Data Structures",
-      "Data Science",
-      "Python",
     ]
   },
   {

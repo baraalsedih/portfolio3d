@@ -49,19 +49,26 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="project">
-                <div className="image-wrapper">
-                  <img src="/images/predictive-model.png" alt="Predictive Analytics Model" loading="lazy" />
-                </div>
-                <div className="text-content">
-
-                  <h2>Network Intrusion – 99.5% accuracy (CNN+LSTM) </h2>
-                  <p className="text-sm text-white-50 md:text-xl">Data preprocessing, training, evaluation, real-time simulation, and FastAPI deployment</p>
-                </div>
+              <div className="image-wrapper">
+                <img src="/images/system-design.png" alt="MLOps Observability Platform" loading="lazy" />
+              </div>
+              <div className="text-content">
+                <h2>MLOps Observability Platform</h2>
+                <p className="text-sm text-white-50 md:text-xl">Python · Streamlit · FastAPI · PostgreSQL · Docker</p>
+                <p className="text-sm text-white-50 md:text-base mt-2">Live platform tracking data quality, model performance, and API endpoint health in real time. Four-layer monitoring system: data evaluation, model evaluation, drift detection, and endpoint monitoring.</p>
               </div>
             </div>
+          </div>
 
           <div className="project-list-wrapper overflow-hidden">
-            {/* New AI/ML projects added first */}
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#E6F7FF]">
+                <img src="/images/Network_ML_System.png" alt="Network Intrusion Detection System" loading="lazy" />
+              </div>
+              <h2>Machine Learning-Based Threat Detection System (End-to-End Pipeline)</h2>
+              <p className="text-sm text-white-50 mt-2">Python · Scikit-Learn · FastAPI · Pandas · Docker — 99.5% accuracy, zero false positives. Served via FastAPI as a deployable system.</p>
+            </div>
+
             <div className="project">
               <div className="image-wrapper bg-[#E6F7FF]">
                 <img
@@ -80,18 +87,6 @@ const AppShowcase = () => {
               </div>
               <h2>Email Cleaner & Priority Sort AI Agent (n8n + Google Gemini)</h2>
               <p className="text-sm text-white-50 mt-2">Auto-classifies emails, applies Gmail labels, sends Discord alerts</p>
-            </div>
-
-            {/* Original projects kept below, unchanged */}
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/chatApp.png"
-                  alt="Real-Time Chat App"
-                  loading="lazy"
-                />
-              </div>
-              <h2>Real-Time Chat App</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
