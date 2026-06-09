@@ -184,11 +184,10 @@ const expCards = [
     title: "Machine Learning Engineer — MLOps Focus",
     date: "Sep 2025 – Present",
     responsibilities: [
-      "Core member of a dedicated MLOps team, co-building the engineering infrastructure that takes models from training to reliable production — owning half of the team's scope end-to-end.",
-      "Built a model serving system with automated API-level evaluation testing to validate model behavior post-deployment, ensuring consistent and reproducible production rollouts.",
-      "Engineered a model packaging pipeline converting trained models into configurable .exe/.bin distribution tools for client-side training — built with Poetry for dependency and version management and Makefile-driven interfaces for complex command workflows.",
-      "Implemented CI/CD pipelines for ML model releases using GitHub Actions, including automated integration testing and database migration workflows across development and production environments.",
-      "Developed data preprocessing and transformation pipelines using Pandas, NumPy, and Polars; integrated experiment tracking and model performance logging with Weights & Biases (W&B).",
+      "Design and build production-ready ML systems from training to deployment.",
+      "Develop model serving and packaging pipelines for client-ready delivery.",
+      "Implement monitoring and observability pipelines for deployed ML models (performance, reliability, data behavior).",
+      "Collaborate with DevOps teams to ensure deployable, maintainable ML services following MLOps best practices.",
     ],
   },
   {
