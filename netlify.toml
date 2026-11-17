@@ -1,0 +1,9 @@
+# Plain static site: no build step, publish the repository root.
+[build]
+  command = "echo 'static site, nothing to build'"
+  publish = "."
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
