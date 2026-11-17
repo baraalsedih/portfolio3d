@@ -1,7 +1,7 @@
-# Plain static site: no build step, publish the repository root.
+# Plain static site: no build step. Netlify publishes the dist folder as it is.
 [build]
   command = "echo 'static site, nothing to build'"
-  publish = "."
+  publish = "dist"
 
 [[headers]]
   for = "/assets/*"
